@@ -1,9 +1,10 @@
-/*-- Header --*/
+/*Header*/
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     overflow: overlay;
+    overflow-x: hidden;
 }
 
 /*Botão Whatsapp*/
@@ -279,6 +280,222 @@ h3{
     }
 }
 
+/*-- Planos --*/
+.plan-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan{
+    color: black;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.plan-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan-col img{
+    width: 100%;
+    display: block;
+}
+
+.plan h1{
+    text-decoration: underline #39B54A;
+}
+
+.plan p{
+    font-size: 18px;
+    color: #202321;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: #39b54a98;
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: default;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+@media(max-width: 700px){
+    .plan-row{
+        flex-direction: column;
+    }
+}
+
+/*-- Servicos --*/
+.servicos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.servicos p{
+    color: black;
+}
+
+.serv-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.serv-col img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.serv-col p{
+    padding-top: 0;
+}
+
+.serv-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+@media(max-width: 700px){
+    .serv-row{
+        flex-direction: column;
+    } 
+}
+
+/*-- Recomendações --*/
+.recomendacoes{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    padding-top: 100x;
+    text-align: center;
+}
+
+#recotext{
+    font-size: 18px;
+}
+
+.reco-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: linear-gradient(#48cc5a,#479251);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    cursor: default;
+}
+
+.reco-col img{
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+#recoimg1{
+    height: 130px;
+    width: 200px;
+}
+
+#recoimg2{
+    height: 130px;
+    width: 200px;
+}
+
+.reco-col p{
+    font-style: italic;
+    font-weight: 400;
+    padding: 0;
+}
+
+.reco-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.reco-col i{
+    color: #202321;
+}
+
+.recomendacoes p{
+    color: #202321;
+}
+
+.reco-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 700px){
+    .reco-row{
+        flex-direction: column;
+    } 
+    .reco-col img{
+        width: 300px;
+        height: 90px;
+    }
+}
+/*-- Contate --*/
+.fale{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url('https://res.cloudinary.com/face-studio/image/upload/v1616381755/I%20Fit/to_no_talento_xfd8ob.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 150px 0;
+}
+.fale h1{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
 /*-- Rodapé --*/
 .footer{
     background-color: #202321;
@@ -390,6 +607,11 @@ h3{
 .footer-col .fsocial-links a:hover{
     color: #202321;
     background-color: #39B54A;
+}
+
+#fsfo{
+    color: #bbbbbb4f;
+    text-decoration: none;
 }
 
 @media(max-width: 700px){

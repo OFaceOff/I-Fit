@@ -15,7 +15,7 @@
         <!--Botão Whatsapp-->
         <div>
             <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
-                <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" width="100px" height="" title="I Fit WhatsApp">
+            <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" width="100px" height="" title="I Fit WhatsApp">
         </div>
         <!--Header-->
         <section class="header" id="Inicio">
@@ -26,8 +26,9 @@
                     <ul>
                         <li><a href="#Inicio">INÍCIO</a></li>
                         <li><a href="#Promo">CARDÁPIO</a></li>
-                        <li><a href="#">SOBRE</a></li>
-                        <li><a href="#">SERVIÇOS</a></li>
+                        <li><a href="#Planos">PLANOS</a></li>
+                        <li><a href="#Servicos">SERVICOS</a></li>
+                        <li><a href="#Fale">FALE CONOSCO</a></li>
                     </ul>
                 </div>
                     <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -37,28 +38,76 @@
                 <p id="teste">Nunca foi tão fácil pedir comida 
                 <span>saudável!</span>
                 </p>
-                <a href="" class="cardap-btn">Veja nosso cardápio</a>
+                <a href="">
+                    <button class="cardap-btn">Veja nosso cardápio</button>
+                </a>
             </div>
         </section>
         <!--Promoção-->
         <section class="promo" id="Promo">
             <h1>Promoções de Hoje</h1>
-            <p id="promotxt">Ta com fome e não quer gastar muito ? <br>
+            <p id="promotxt">Está com fome e não quer gastar muito ? <br>
                 Deixa que a gente te ajuda, aproveite nossas promoções diarias !
             </p>
             <div class="promo-row">
             <a href="">
                 <div class="promos-col">
-                    <img src="assets/img/Botao_1.png" alt="promoção 1">
+                    <img src="assets/img/Botao_1.png" alt="Promoção 1" title="Promoção diária 1">
                 </div>
             </a>
                 <div class="promos-col">
-                    <img src="assets/img/Botao_2.png" alt="promoção 2">
+                    <img src="assets/img/Botao_2.png" alt="Promoção 2" title="Promoção diária 2">
                 </div>
                 <div class="promos-col">
-                    <img src="assets/img/Botao_3.png" alt="promoção 3">
+                    <img src="assets/img/Botao_3.png" alt="Promoção 3" title="Promoção diária 3">
                 </div>
             </div>
+        </section>
+        <!--Recomendações-->
+        <section class="recomendacoes" id="Recomend">
+            <h1>O que nossos clientes acham de nossos produtos</h1>
+            <p id="recotext">
+                Veja aqui oque alguns de nossos clientes acham de nosso serviço e de nossa comida.
+            </p>
+            <div class="reco-row">
+                <div class="reco-col">
+                    <img src="assets/img/user1.jpg" id="recoimg1">
+                    <div>
+                        <p>
+                            "Serviço exemplar e atencioso e bem rapido até, chegou tudo
+                            direitinho aqui em casa #PartiuComer #Fit #ConcorrenciaForte"
+                        </p>
+                        <h3>Ronald MecNomad</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="reco-col">
+                    <img src="assets/img/user2.jpg" id="recoimg2">
+                    <div>
+                        <p>
+                            "Boa tarde senhores, ótimo aperitivo para se alimentar diante
+                            de uma ocorrência, muito tiro e comida saudável !!!"
+                        </p>
+                        <h3>Cabo Washington</h3>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fale Conosco-->
+        <section class="fale" id="Fale">
+            <h1>Dê-nos sua opnião ou elogio<br>e ajude-nos a melhorar a sua experiência para sua próxima compra</h1>
+            <a href="">
+                <button class="cardap-btn">Fale Conosco</button>
+            </a>
         </section>
         <!--Rodapé-->
         <footer class="footer">
@@ -112,7 +161,8 @@
                     </div>
                     <p>
                         © 2021 - I Fit Delivery │ Todos os direitos reservados. <br>
-                        © Face Studio Group LTDA │
+                        © <a href="https://sites.google.com/view/facestudioofc/sobre" id="fsfo" target="_blank">
+                        Face Studio Group LTDA</a> │
                         Duque de Caxias, RJ, Brasil.
                     </p>
                 </div>
