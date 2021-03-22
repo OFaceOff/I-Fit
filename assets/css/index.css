@@ -472,12 +472,17 @@ h3{
 @media(max-width: 700px){
     .reco-row{
         flex-direction: column;
-    } 
-    .reco-col img{
-        width: 300px;
-        height: 90px;
+    }
+    #recoimg1{
+        height: 100px;
+        width: 450px;
+    }
+    #recoimg2{
+        height: 100px;
+        width: 450px;
     }
 }
+
 /*-- Contate --*/
 .fale{
     margin: 100px auto;
