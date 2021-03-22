@@ -16,6 +16,9 @@
 </p>
 
 ## :rocket: Sobre o projeto
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ae6a6f54e2aa4cb4a3d2c1dcaf15cb09)](https://app.codacy.com/gh/OFaceOff/I-Fit?utm_source=github.com&utm_medium=referral&utm_content=OFaceOff/I-Fit&utm_campaign=Badge_Grade_Settings)
+
 <p align="center">
     A I Fit é uma empresa ficticia criada para o PCA 2021-1<br><br>
     <span>O Site I Fit é totalmente demonstrativo, com a finalidade apenas de divulgar a ideia que foi demandado a um trabalho universitário.</span><br>
