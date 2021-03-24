@@ -8,22 +8,22 @@
 }
 
 /* Background */
-body .plan {
+body .plan{
     padding: 20vh;
     background-color: #202321;
 }
 
-body .servicos {
+body .servicos{
     padding: 20vh;
     background-color: #39B54A;
 }
 
-body .promo {
+body .promo{
     padding: 20vh;
     background-color: #F8F7F7;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     body .plan{
         padding: 6vh;
     }
@@ -160,18 +160,18 @@ nav img {
     cursor: pointer;
 }
 
-.cardap-btn:hover {
+.cardap-btn:hover{
     color: #ffffff;
     border: 1px solid #39B54A;
     background: #39B54A;
     transition: 0.3s;
 }
 
-nav .fa {
+nav .fa{
     display: none;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     #btn-wpp{
     display: none;
     }
@@ -234,30 +234,30 @@ nav .fa {
 
 /*-- Promoções --*/
 
-.promo {
+.promo{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.promo a {
+.promo a{
     text-decoration: none;
     color: black;
 }
 
-h1 {
+.promo h1{
     text-decoration: underline #39B54A;
     font-size: 36px;
     font-weight: 600;
 }
 
-#promotxt {
+#promotxt{
     color: #202321;
     font-size: 25px;
 }
 
-p {
+.promo p{
     color: #fff;
     font-size: 14px;
     font-weight: 300;
@@ -265,13 +265,13 @@ p {
     padding: 10px;
 }
 
-.promo-row {
+.promo-row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.promos-col {
+.promos-col{
     padding-top: 10px;
     flex-basis: 31%;
     background: #39B54A;
@@ -283,17 +283,13 @@ p {
     transition: 0.1s;
 }
 
-h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
+/***************************************************/
 
-.promos-col:hover {
+.promos-col:hover{
     box-shadow: 0 0 20px 0px #000000;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     .promo-row{
         flex-direction: column;
     }
@@ -309,13 +305,13 @@ h3 {
 }
 
 /*-- Planos --*/
-.plan-row {
+.plan-row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.plan {
+.plan{
     color: #39B54A;
     width: 80%;
     margin: auto;
@@ -323,7 +319,7 @@ h3 {
     padding-top: 50px;
 }
 
-.plan-col {
+.plan-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -331,21 +327,24 @@ h3 {
     overflow: hidden;
 }
 
-.plan-col img {
+.plan-col img{
     width: 100%;
     display: block;
 }
 
-.plan h1 {
+.plan h1{
     text-decoration: none;
+    font-size: 36px;
+    font-weight: 600;
 }
 
-.plan p {
+.plan p{
     font-size: 18px;
     color: #fff;
 }
 
-.layer {
+.layer{
+    cursor: pointer;
     background: transparent;
     height: 100%;
     width: 100%;
@@ -355,11 +354,15 @@ h3 {
     transition: 0.5s;
 }
 
-.layer:hover {
-    background: #39b54a98;
+.layer:hover{
+    background: #39b54ae3;
 }
 
-.layer h3 {
+.plblu:hover{
+    filter: blur(4px);
+}
+
+.layer h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -370,70 +373,80 @@ h3 {
     position: absolute;
     opacity: 0;
     transition: 0.5s;
-    cursor: default;
 }
 
-.layer:hover h3 {
+.layer:hover h3{
     bottom: 49%;
     opacity: 1;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     .plan-row{
         flex-direction: column;
     }
 }
 
 /*-- Servicos --*/
-.servicos {
+.servicos{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.servicos p {
+.servicos p{
     font-size: 18px;
     color: black;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 
-.serv-row {
+.servicos h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.serv-row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.serv-col {
+.serv-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.serv-col img {
+.serv-col img{
     width: 100%;
     border-radius: 20px;
 
 }
 
-.serv-col p {
+.serv-col p{
+    font-weight: 360;
     padding-top: 0;
 }
 
-.serv-col h3 {
+.serv-col h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     .serv-row{
         flex-direction: column;
     } 
 }
 
 /*-- Recomendações --*/
-.recomendacoes {
+.recomendacoes{
     width: 80%;
     margin: auto;
     margin-top: 150px;
@@ -441,11 +454,11 @@ h3 {
     text-align: center;
 }
 
-#recotext {
+#recotext{
     font-size: 18px;
 }
 
-.reco-col {
+.reco-col{
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -457,48 +470,58 @@ h3 {
     cursor: default;
 }
 
-.reco-col img {
+.reco-col img{
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
 }
 
-#recoimg1 {
+#recoimg1{
     height: 130px;
     width: 200px;
 }
 
-#recoimg2 {
+#recoimg2{
     height: 130px;
     width: 200px;
 }
 
-.reco-col p {
+.reco-col p{
     font-style: italic;
     font-weight: 400;
     padding: 0;
 }
 
-.reco-col h3 {
+.reco-col h3{
     margin-top: 15px;
     text-align: left;
 }
 
-.reco-col i {
+.reco-col i{
     color: #202321;
 }
 
-.recomendacoes p {
+.recomendacoes p{
     color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
 }
 
-.reco-row {
+.recomendacoes h1{
+    text-decoration: underline #39B54A;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.reco-row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     .reco-row{
         flex-direction: column;
     }
@@ -512,7 +535,7 @@ h3 {
     }
 }
 /*-- Contate --*/
-.fale {
+.fale{
     margin: 100px auto;
     width: 80%;
     background-image: url('https://res.cloudinary.com/face-studio/image/upload/v1616381755/I%20Fit/to_no_talento_xfd8ob.jpg');
@@ -523,7 +546,9 @@ h3 {
     padding: 150px 0;
     box-shadow: 0 0 20px 0px #000000;
 }
-.fale h1 {
+.fale h1{
+    font-size: 36px;
+    font-weight: 600;
     color: #fff;
     text-decoration: none;
     margin-bottom: 50px;
@@ -531,26 +556,27 @@ h3 {
 }
 
 /*-- Rodapé --*/
-.footer {
+.footer{
     background-color: #202321;
     padding: 70px 0;
 }
 
-.footer-container {
+.footer-container{
     max-width: 1170px;
     margin: auto;
 }
 
-.footer ul {
+.footer ul{
     list-style: none;
 }
 
-.footer-row {
+.footer-row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-row p {
+.footer-row p{
+    padding-top: 70px;
     text-align: center;
     margin: auto;
     cursor: default;
@@ -562,12 +588,12 @@ h3 {
     display: block;
 }
 
-.footer-col {
+.footer-col{
     width: 17%;
     padding: 15px;
 }
 
-.footer-col h4 {
+.footer-col h4{
     cursor: default;
     font-size: 18px;
     color: #ffffff;
@@ -577,7 +603,7 @@ h3 {
     position: relative;
 }
 
-.footer-col h4::before {
+.footer-col h4::before{
     content: '';
     position: absolute;
     left: 0;
@@ -588,11 +614,11 @@ h3 {
     width: 50px;
 }
 
-.footer-col ul li:not(:last-child) {
+.footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
 
-.footer-col ul li a {
+.footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -603,7 +629,7 @@ h3 {
     transition: all 0.3s ease;
 }
 
-.footer-col span {
+.footer-col span{
     cursor: default;
     font-weight: 900;
     font-size: 1em;
@@ -615,16 +641,16 @@ h3 {
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover {
+.footer-col ul li a:hover{
     color: #ffffff;
     padding: 5px;
 }
 
-.footer-col span:hover {
+.footer-col span:hover{
     color: #ffffff;
 }
 
-.footer-col .fsocial-links a {
+.footer-col .fsocial-links a{
     overflow: hidden;
     display: inline-block;
     height: 40px;
@@ -638,18 +664,49 @@ h3 {
     transition: all 0.3s ease;
 }
 
-.footer-col .fsocial-links a:hover {
+.footer-col .fsocial-links a:hover{
     color: #202321;
     background-color: #39B54A;
 }
 
-#fsfo {
+#fsfo{
     color: #bbbbbb4f;
     text-decoration: none;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 700px){
     .footer-col{
         width: 100%;
     }
+}
+
+/*-- Pagina Sobre --*/
+
+.sub-header{
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(#0e2c12c5,#0e2c12c5), url('/assets/img/chef.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.sub-header h1{
+    color: #fff;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 55px;
+}
+
+#sifit{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;    
+    text-decoration: underline #39B54A;
+    font-size: 40px;
+}
+
+.sobre p{
+    color: #000000;
 }
