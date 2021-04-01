@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/index.css">
         <link rel="shortcut icon" href="assets/img/Favicon.png">
         <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
@@ -25,9 +25,8 @@
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="#Promo">CARDÁPIO</a></li>
-                        <li><a href="sobre.html">SOBRE</a></li>
-                        <li><a href="#Servicos">SERVIÇOS</a></li>
+                        <li><a href="cardapio.html">CARDÁPIO</a></li>
+                        <li><a href="#Sobre">SOBRE</a></li>
                         <li><a href="#Fale">FALE CONOSCO</a></li>
                     </ul>
                 </div>
@@ -38,7 +37,7 @@
                 <p id="teste">Nunca foi tão fácil pedir comida 
                 <span>saudável!</span>
                 </p>
-                <a href="">
+                <a href="cardapio.html">
                     <button class="cardap-btn">Veja nosso cardápio</button>
                 </a>
             </div>
@@ -46,56 +45,20 @@
         <!--Promoção-->
         <section class="promo" id="Promo">
             <h1>Promoções de Hoje</h1>
-            <p id="promotxt">Está com fome e não quer gastar muito ? <br>
-                Deixa que a gente te ajuda, aproveite nossas promoções diarias !
+            <p id="promotxt">Está com fome e não quer gastar muito? <br>
+                Deixa que a gente te ajuda, aproveite nossas promoções diárias!      
             </p>
             <div class="promo-row">
-                <div class="promos-col">
-                    <img src="assets/img/Botao_1.png" alt="Promoção 1" title="Promoção diária 1">
+                <div class="promos-col" id="txt1">
+                    <p>ALMOÇO A PARTIR DE R$15</p>
                 </div>
-                <div class="promos-col">
-                    <img src="assets/img/Botao_2.png" alt="Promoção 2" title="Promoção diária 2">
+                <div class="promos-col" id="txt2">
+                    <p>BATATA-DOCE COM SALADA DE ALFACE E FRANGO GRELHADO</p> 
                 </div>
-                <div class="promos-col">
-                    <img src="assets/img/Botao_3.png" alt="Promoção 3" title="Promoção diária 3">
+                <div class="promos-col" id="txt3">
+                    <p>PRATOS VEGANOS COM ATÉ 50% OFF</p>
                 </div>
             </div>
-        </section>
-        <!--Serviços-->
-        <section class="servicos" id="Servicos">  
-            <h1>Serviços Extras</h1> 
-            <p>
-                Descubra aqui nossos serviços extras incluidos em nossos planos feitos para ajudar você e sua saúde.
-            </p>
-            <div class="serv-row">
-                <div class="serv-col">
-                    <img src="assets/img/faz um seguinte.png">
-                    <h3>Academia a Distância</h3>
-                    <p>
-                        Você já pensou em ir à academia para cumprir 
-                        um treino personalizado e ainda contar com um 
-                        personal trainer para tirar qualquer dúvida, a 
-                        qualquer hora, com apenas uma mensagem por WhatsApp?
-                        A I Fit pode te ajudar conheça nossos planos versáteis.
-                    </p>
-                </div>
-                <div class="serv-col">
-                    <img src="assets/img/verdesincero.jpg">
-                    <h3></h3>
-                    <p>
-                        
-                    </p>
-                </div>
-                <div class="serv-col">
-                    <img src="assets/img/dieta.jpg">
-                    <h3>Dieta Programada</h3>
-                    <p>
-                        Esta tentando emagrecer e não tem tempo de fazer sua alimentação ? 
-                        Deixa que a gente se preocupa com isso, com o nosso serviço de Dieta Programada
-                        você fica tranquilo.
-                    </p>
-                </div>
-            </div>             
         </section>
         <!--Planos-->
         <section class="plan" id="Planos">
@@ -106,21 +69,21 @@
             <div class="plan-row">
                 <div class="plan-col">
                     <img src="assets/img/plano iniciante.png">
-                    <a href="dev.html"><div class="layer">
-                        <h3>SAIBA MAIS</h3>
-                    </div></a>
+                    <div class="layer">
+                       <h3>SAIBA MAIS</h3>
+                    </div>
                 </div>
                 <div class="plan-col">
                     <img src="assets/img/intermediario.png">
-                    <a href="dev.html"><div class="layer">
+                    <div class="layer">
                         <h3>SAIBA MAIS</h3>
-                    </div></a>
+                    </div>
                 </div>
                 <div class="plan-col">
                     <img src="assets/img/avancado.png">
-                    <a href="dev.html"><div class="layer">
+                    <div class="layer">
                         <h3>SAIBA MAIS</h3>
-                    </div></a>
+                    </div>
                 </div>      
             </div>            
         </section>
@@ -128,14 +91,14 @@
         <section class="recomendacoes" id="Recomend">
             <h1>O que nossos clientes dizem</h1>
             <p id="recotext">
-                Veja aqui oque alguns de nossos clientes acham de nosso serviço e de nossa comida.
+                Veja aqui o que alguns de nossos clientes acham de nosso serviço e de nossa comida.
             </p>
             <div class="reco-row">
                 <div class="reco-col">
                     <img src="assets/img/user1.jpg" id="recoimg1">
                     <div>
                         <p>
-                            "Serviço exemplar e atencioso e bem rapido até, chegou tudo
+                            "Serviço exemplar, atencioso e bem rapido até, chegou tudo
                             direitinho aqui em casa #PartiuComer #Fit #ConcorrenciaTaQUENTE"
                         </p>
                         <h3>Ronald MecNomad</h3>
@@ -165,7 +128,7 @@
         </section>
         <!--Fale Conosco-->
         <section class="fale" id="Fale">
-            <h1>Dê-nos sua opinião ou elogio<br>e ajude-nos a melhorar a sua experiência para sua próxima compra</h1>
+            <h1>Nos dê sua opinião ou elogio<br>e nos ajude a melhorar sua experiência para sua próxima compra</h1>
             <a href="">
                 <button class="cardap-btn">Fale Conosco</button>
             </a>
@@ -187,7 +150,7 @@
                         <h4>Menu</h4>
                         <ul>
                             <li><a href="#Inicio">Início</a></li>
-                            <li><a href="#">Cardápio</a></li>
+                            <li><a href="cardapio.html">Cardápio</a></li>
                             <li><a href="#">Sobre</a></li>
                             <li><a href="#">Serviços</a></li>
                             <li><a href="#">Contato</a></li>

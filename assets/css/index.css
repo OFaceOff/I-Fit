@@ -13,7 +13,7 @@ body .plan{
     background-color: #202321;
 }
 
-body .servicos{
+body .sobre{
     padding: 20vh;
     background-color: #39B54A;
 }
@@ -21,18 +21,6 @@ body .servicos{
 body .promo{
     padding: 20vh;
     background-color: #F8F7F7;
-}
-
-@media(max-width: 700px){
-    body .plan{
-        padding: 6vh;
-    }
-    body .servicos{
-        padding: 6vh;
-    }
-    body .promo{
-        padding: 6vh;
-    }
 }
 
 /*Botão Whatsapp*/
@@ -233,7 +221,6 @@ nav .fa{
 }
 
 /*-- Promoções --*/
-
 .promo{
     width: 80%;
     margin: auto;
@@ -241,67 +228,102 @@ nav .fa{
     padding-top: 100px;
 }
 
-.promo a{
-    text-decoration: none;
-    color: black;
-}
-
 .promo h1{
-    text-decoration: underline #39B54A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: 600;
+    text-decoration: underline #39B54A;
 }
 
 #promotxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #202321;
     font-size: 25px;
 }
 
 .promo p{
-    color: #fff;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    color: #fff;
 }
 
 .promo-row{
+    width: 100%;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
 .promos-col{
-    padding-top: 10px;
-    flex-basis: 31%;
-    background: #39B54A;
-    border-radius: 20px;
-    margin-bottom: 5%;
+    display: flex;
+    flex-basis: 32%;
+    height: 250px;
     padding-top: 20px 12px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 60px;
+    margin-left: 15px;
+
+    background: #39B54A;
+    border-radius: 30px;
     box-sizing: border-box;
     cursor: pointer;
+    overflow: hidden;
+
     transition: 0.1s;
 }
 
-/***************************************************/
+#txt1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
 
-.promos-col:hover{
-    box-shadow: 0 0 20px 0px #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5em;
+    font-weight: 400;
+    line-height: 55px;
+    overflow: hidden;
 }
 
-@media(max-width: 700px){
-    .promo-row{
-        flex-direction: column;
-    }
-    .promos-col{
-        width: 100%;
-    }
-    .promo img{
-        width: 250px;
-    }
-    #promotxt{
-        font-size: 22px;
-    }
+#txt2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4em;
+    font-weight: 400;
+    line-height: 45px;
+
+    overflow: hidden;
+}
+
+#txt3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 60px;
+
+    overflow: hidden;
+}
+
+.promos-col:hover{
+    box-shadow: 0 0 20px 0px #202321;
 }
 
 /*-- Planos --*/
@@ -334,12 +356,12 @@ nav .fa{
 
 .plan h1{
     text-decoration: none;
-    font-size: 36px;
+    font-size: 5em;
     font-weight: 600;
 }
 
 .plan p{
-    font-size: 18px;
+    font-size: 1.9em;
     color: #fff;
 }
 
@@ -380,58 +402,63 @@ nav .fa{
     opacity: 1;
 }
 
-@media(max-width: 700px){
-    .plan-row{
-        flex-direction: column;
-    }
-}
-
-/*-- Servicos --*/
-.servicos{
+/*-- Sobre --*/
+.sobre{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.servicos p{
-    font-size: 18px;
+.sobre p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
     color: black;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    padding-right: 10%;
 }
 
-.servicos h1{
+.sobre h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: 600;
+    padding-right: 10%;
 }
 
-.serv-row{
+.sobre-row{
+    position: relative;
+    right: 4%;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.serv-col{
+.sobre-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.serv-col img{
+.sobre-col img{
     width: 100%;
     border-radius: 20px;
 
 }
 
-.serv-col p{
-    font-weight: 360;
+.sobre-col p{
+    font-weight: 299;
     padding-top: 0;
+    text-align: center;
 }
 
-.serv-col h3{
+.sobre-col h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
@@ -439,17 +466,11 @@ nav .fa{
     margin-bottom: 15px;
 }
 
-@media(max-width: 700px){
-    .serv-row{
-        flex-direction: column;
-    } 
-}
-
 /*-- Recomendações --*/
 .recomendacoes{
     width: 80%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 90px;
     padding-top: 10px;
     text-align: center;
 }
@@ -486,9 +507,9 @@ nav .fa{
     width: 200px;
 }
 
-.reco-col p{
+.recomendacoes .reco-col p{
     font-style: italic;
-    font-weight: 400;
+    font-weight: 450;
     padding: 0;
 }
 
@@ -521,19 +542,6 @@ nav .fa{
     justify-content: space-between;
 }
 
-@media(max-width: 700px){
-    .reco-row{
-        flex-direction: column;
-    }
-    #recoimg1 {
-        height: 100px;
-        width: 450px;
-    }
-    #recoimg2 {
-        height: 100px;
-        width: 450px;
-    }
-}
 /*-- Contate --*/
 .fale{
     margin: 100px auto;
@@ -674,39 +682,465 @@ nav .fa{
     text-decoration: none;
 }
 
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*Background*/
+    body .plan{
+        padding: 11vh;
+    }
+    body .sobre{
+        padding: 11vh;
+    }
+    body .promo{
+        padding: 11vh;
+    }
+    body .recomendacoes{
+        padding: 11vh;
+    }
+    /*Header*/
+    .text-box h1{
+        font-size: 4em;
+    }
+    /*Promoção*/
+    .promo-row{
+        display: flex;
+        position: relative;
+        right: 6%;
+        flex-direction: column;
+        width: 90%;
+    }
+    .promos-col{
+        width: 90%;
+        margin-right: 7%;
+    }
+    #promotxt{
+        font-size: 1.9em;
+        line-height: 100%;
+        padding-right: 20%;
+    }
+    .promo h1{
+        padding-right: 20%;
+    }
+    #txt1 p{
+        font-size: 3.5em;
+        line-height: 80%;
+        padding-right: 25%;
+    }
+    #txt2 p{
+        font-size: 2.7em;
+        line-height: 80%;
+        padding-right: 20%;
+    }
+    #txt3 p{
+        padding-right: 20%;
+    }
+    /*Sobre*/
+    .sobre-row{
+        flex-direction: column;
+        position: relative;
+        right: 11%;
+    }
+    .sobre h1{
+        position: relative;
+        right: 7%;
+    }
+    .sobre p{
+        position: relative;
+        right: 7%;
+    }
+    .sobre-row p{
+        position: relative;
+        left: 2%;
+    }
+    /*Planos*/
+    .plan-row{
+        flex-direction: column;
+        position: relative;
+        right: 11%;
+    }
+    .plan h1{
+        position: relative;
+        right: 11%;
+        line-height: 100%;
+        font-size: 4em;
+        overflow: hidden;
+    }
+    .plan p{
+        position: relative;
+        right: 11%;
+        font-size: 1em;
+    }
+    /*Recomendações*/
+    .recomendacoes h1{
+        position: relative;
+        right: 10%;
+    }
+    .reco-row{
+        flex-direction: column;
+        position: relative;
+        right: 11%;
+    }
+    #recotext{
+        position: relative;
+        right: 10%;
+    }
+    #recoimg1{
+        height: 100px;
+        width: 500px;
+    }
+    
+    #recoimg2{
+        height: 100px;
+        width: 500px;
+    }
+    /*Footer*/
+    .footer-col{
+        width: 100%;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*Background*/
+    body .plan{
+        padding: 14vh;
+    }
+    body .sobre{
+        padding: 14vh;
+    }
+    body .promo{
+        padding: 14vh;
+    }
+    body .recomendacoes{
+        padding: 14vh;
+    }
+    /*Header*/
+    .text-box h1{
+        font-size: 5em;
+    }
+    /* PROMOÇÃO */
+    .promo-row{
+        flex-direction: column;
+        margin-right: 8%;
+    }
+    .promos-col{
+        width: 90%;
+    }
+    #promotxt{
+        font-size: 22px;
+        line-height: 2rem;
+        margin-right: 8%;
+    }
+    .promo h1{
+        margin-right: 8%;
+    }
+    #txt1 p{
+        padding-right: 8%;
+    }
+    #txt2 p{
+        padding-right: 10%;
+    }
+    #txt3 p{
+        padding-right: 20%;
+    }
+    /*Sobre*/
+    .sobre-row{
+        flex-direction: column;
+    }
+    /*Planos*/
+    .plan-row{
+        flex-direction: column;
+        position: relative;
+        right: 8%;
+    }
+    .plan h1{
+        position: relative;
+        right: 8%;
+    }
+    .plan p{
+        position: relative;
+        right: 8%;
+    }
+    /*Recomendações*/
+    .recomendacoes h1{
+        position: relative;
+        right: 10%;
+    }
+    .reco-row{
+        flex-direction: column;
+        position: relative;
+        right: 11%;
+    }
+    #recotext{
+        position: relative;
+        right: 10%;
+    }
+    #recoimg1{
+        height: 100px;
+        width: 300px;
+    }
+    
+    #recoimg2{
+        height: 100px;
+        width: 300px;
+    }
+}
 @media(max-width: 700px){
     .footer-col{
         width: 100%;
     }
 }
 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Background*/
+    body .plan{
+        padding: 18vh;
+    }
+    body .sobre{
+        padding: 18vh;
+    }
+    body .promo{
+        padding: 18vh;
+    }
+    body .recomendacoes{
+        padding: 18vh;
+    }
+    /* PROMOÇÃO */
+    .promo-row{
+        flex-direction: column;
+        margin-right: 27%;
+    }
+    .promos-col{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    #promotxt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        line-height: 2rem;
+        padding-right: 15%;
+    }
+    .promo h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 15%;
+    }
+    #txt1 p{
+        line-height: 89%;
+        font-size: 3em;
+        padding-right: 50%;
+        padding-left: 40%;
+    }
+    #txt2 p{
+        line-height: 100%;
+        font-size: 2em;
+        padding-right: 50%;
+        padding-left: 40%;
+    }
+    #txt3 p{
+        line-height: 100%;
+        font-size: 3em;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    /*planos*/
+    .plan-row{
+        position: relative;
+        right: 8%;
+    }
+    .plan h1{
+        position: relative;
+        right: 8%;
+    }
+    .plan p{
+        position: relative;
+        right: 8%;
+    }
+    /*Recomendações*/
+    .recomendacoes h1{
+        position: relative;
+        right: 5%;
+    }
+    .reco-row{
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        right: 5%;
+    }
+    #recotext{
+        position: relative;
+        right: 5%;
+    }
+    #recoimg1{
+        height: 100px;
+        width: 150px;
+    }
+    
+    #recoimg2{
+        height: 100px;
+        width: 150px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Background*/
+    body .plan{
+        padding: 22vh;
+    }
+    body .sobre{
+        padding: 22vh;
+    }
+    body .promo{
+        padding: 22vh;
+    }
+    body .recomendacoes{
+        padding: 22vh;
+    }
+    /* PROMOÇÃO */
+    .promo-row{
+        flex-direction: space-between;
+        margin-right: 9%;
+    }
+    .promos-col{
+        width: 100%;
+        height: 250px;
+    }
+    #promotxt{
+        font-size: 31px;
+        line-height: 2rem;
+        margin-right: 9%;
+    }
+    .promo h1{
+        margin-right: 9%;
+    }
+    #txt1 p{
+        line-height: 100%;
+        font-size: 3em;
+        margin-right: 17%;
+    }
+    #txt2 p{
+        line-height: 100%;
+        font-size: 2em;
+        margin-right: 17%;
+    }
+    #txt3 p{
+        line-height: 100%;
+        font-size: 3em;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    /*planos*/
+    .plan-row{
+        position: relative;
+        right: 8%;
+    }
+    .plan h1{
+        position: relative;
+        right: 8%;
+    }
+    .plan p{
+        position: relative;
+        right: 8%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    /*Background*/
+    body .plan{
+        padding: 26vh;
+    }
+    body .sobre{
+        padding: 26vh;
+    }
+    body .promo{
+        padding: 26vh;
+    }
+    body .recomendacoes{
+        padding: 26vh;
+    }
+    /* PROMOÇÃO */
+    .promo-row{
+        flex-direction: space-between;
+        margin-right: 8%;
+    }
+    .promos-col{
+        padding-right: 50px;
+        width: 50%;
+    }
+    .promo img{
+        width: 300px;
+    }
+    #promotxt{
+        font-size: 28px;
+        line-height: 2rem;
+        margin-right: 8%;
+    }
+    .promo h1{
+        margin-right: 8%;
+    }
+    /*planos*/
+    .plan-row{
+        position: relative;
+        right: 5%;
+    }
+    .plan h1{
+        position: relative;
+        right: 5%;
+    }
+    .plan p{
+        position: relative;
+        right: 5%;
+    }
+    /*Recomendações*/
+    .recomendacoes h1{
+        position: relative;
+        right: 6%;
+    }
+    .reco-row{
+        justify-content: space-between;
+        position: relative;
+        right: 6%;
+    }
+    #recotext{
+        position: relative;
+        right: 6%;
+    }
+    #recoimg1{
+        height: 100px;
+        width: 200px;
+    }
+    
+    #recoimg2{
+        height: 100px;
+        width: 200px;
+    }
+}
+
 /*-- Pagina Sobre --*/
 
-.sub-header{
+.cardap-header{
     text-align: center;
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(#0e2c12c5,#0e2c12c5), url('/assets/img/chef.png');
+    background-image: linear-gradient(#0e2c12c5,#0e2c12c5), url('https://res.cloudinary.com/face-studio/image/upload/v1616557666/I%20Fit/chef_inia8r.png');
     background-position: center;
     background-size: cover;
     color: #fff;
 }
 
-.sub-header h1{
+.cardap-header h1{
     color: #fff;
     margin-top: 100px;
     font-weight: 600;
     font-size: 55px;
-}
-
-#sifit{
-    margin-top: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;    
     text-decoration: underline #39B54A;
-    font-size: 40px;
-}
-
-.sobre p{
-    color: #000000;
 }
