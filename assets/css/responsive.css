@@ -1,0 +1,190 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*cardapio*/
+    *{
+        overflow-x: hidden;
+    }
+    .cardapio{
+        flex-direction: column;
+        margin-right: 7%;
+        width: 100%;
+    }
+    .cardapio img{
+        width: auto;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .cardapio h2{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .cardapio h1{
+        margin-right: 7%;
+    }
+    .cardapio p{
+        font-size: 17px;
+        margin-right: 0%;
+    }
+        /*tipo*/
+    .tipo{
+        width: 100%;
+        margin-right: 7%;        
+    }
+
+    .tipo h2{
+        font-size: 22px;
+        margin-right: 0%;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* cardapio */
+    .cardapio{
+        flex-direction: row;
+        display: flex;
+        margin-right: 7%;
+        width: 100%;
+    }
+    .cardapio img{
+        width: auto;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .cardapio h2{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .cardapio h1{
+        margin-right: 7%;
+    }
+    .cardapio p{
+        font-size: 17px;
+        margin-right: 0%;
+    }
+        /*tipo*/
+    .tipo{
+        width: 100%;
+        margin-right: 7%;        
+    }
+
+    .tipo h2{
+        font-size: 22px;
+        margin-right: 0%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* cardapio */
+    .cardapio{
+        flex-direction:row;
+        display: flex;
+        margin-right: 7%;
+        width: 100%;
+    }
+    .cardapio img{
+        width: auto;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .cardapio h2{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .cardapio h1{
+        margin-right: 7%;
+    }
+    .cardapio p{
+        font-size: 17px;
+        margin-right: 0%;
+    }
+        /*tipo*/
+    .tipo{
+        width: 100%;
+        margin-right: 7%;        
+    }
+
+    .tipo h2{
+        font-size: 22px;
+        margin-right: 0%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* cardapio */
+    .cardapio{
+        flex-direction: row;
+        display: flex;
+        margin-right: 7%;
+        width: 100%;
+    }
+    .cardapio img{
+        width: auto;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .cardapio h2{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .cardapio h1{
+        margin-right: 7%;
+    }
+    .cardapio p{
+        font-size: 17px;
+        margin-right: 0%;
+    }
+        /*tipo*/
+    .tipo{
+        width: 100%;
+        margin-right: 7%;        
+    }
+
+    .tipo h2{
+        font-size: 22px;
+        margin-right: 0%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    /* cardapio */
+    .cardapio{
+        flex-direction: row;
+        margin-right: auto;
+    }
+    
+    .cardapio img{
+        width: auto;
+        justify-content: center;
+        margin-right: 0%;
+    }
+    .cardapio h2{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+    .cardapio h1{
+        margin-right: 7%;
+    }
+    .cardapio p{
+        font-size: 17px;
+        margin-right: 0%;
+    }
+        /*tipo*/
+    .tipo{
+        width: auto;       
+    }
+
+    .tipo h2{
+        font-size: 22px;
+        margin-right: auto;
+        justify-content: center; 
+    }
+
+    .item{
+        width: 100%;
+    }
+}

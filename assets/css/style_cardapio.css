@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: overlay;
+    overflow-x: hidden;
+}
+body{
+    background: #202321;
+}
+
+.cardapio{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.tipo{
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cardapio img{
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+
+    background-color: #ffffff1a;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 20px #000000a4;
+    overflow: hidden;
+    border-top: 1px solid #ffffff80;
+    border-left: 1px solid #ffffff80;
+    backdrop-filter: blur(5px);
+}
+
+.item p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item button{
+    background-color: #202321;
+    color: #39b54a;
+    border-radius: 200px;
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.item button:hover{
+    background-color: #0f6e1c;
+    color: #fff;
+}
+
+body hr{
+    font-size: large;
+    border: 5px solid #39b54a;
+}
+
+.cardap-move{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
