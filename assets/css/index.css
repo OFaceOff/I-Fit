@@ -1135,6 +1135,7 @@ nav .fa{
     background-position: center;
     background-size: cover;
     color: #fff;
+    overflow: hidden;
 }
 
 .cardap-header h1{
@@ -1142,5 +1143,4 @@ nav .fa{
     margin-top: 100px;
     font-weight: 600;
     font-size: 55px;
-    text-decoration: underline #39B54A;
 }
