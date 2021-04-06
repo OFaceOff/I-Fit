@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/fale.css">
         <link rel="shortcut icon" href="assets/img/Favicon.png">
         <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
     </head>
     <body class="contato">
         <div class="conteudo">
@@ -22,7 +23,9 @@
                     <div class="icone"><i class="fas fa-map-marked-alt"></i></div>
                     <div class="texto">
                         <h3>Endereço</h3>
-                        <p>Duque de Caxias, RJ, Brasil.</p>
+                        <a href="https://goo.gl/maps/rppn94gPHZij2gRh9" target="_blank">
+                            <p>Duque de Caxias, RJ, Brasil.</p>
+                        </a>
                     </div>
                 </div>
                 <div class="caixa">
@@ -36,27 +39,29 @@
                     <div class="icone"><i class="fas fa-envelope"></i></div>
                     <div class="texto">
                         <h3>Email</h3>
-                        <p>ifitsocial@gmail.com</p>
+                        <a href="mailto:ifitsocial@gmail.com" target="_blank">
+                            <p>ifitsocial@gmail.com</p>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="contatoForm">
-                <form>
+                <form id="form">
                     <h2>Enviar Mensagem</h2>
                     <div class="inputBox">
                         <input type="text" name="name" required="required" maxlength="150" autofocus autocomplete="off">
                         <label>Nome Completo</label>                        
                     </div>
                     <div class="inputBox">
-                        <input type="email" name="email" required="required" maxlength="150" autocomplete="off">
+                        <input type="email" id="email" name="email" required="required" maxlength="150" autocomplete="off" onkeydown="validation()">
                         <label>Email</label>
                     </div>
                     <div class="inputBox">
-                        <textarea required="required"></textarea>
+                        <textarea required="required" maxlength="350"></textarea>
                         <label>Sua mensagem</label>
                     </div>
-                    <div class="inputBox">
-                        <input type="submit" value="Enviar">
+                    <div class="inputBox" id="submit-btn">
+                        <input type="submit" value="Enviar" onclick="togglePopup()">
                     </div>
                 </form>
             </div>
@@ -66,6 +71,19 @@
                 <i class="fas fa-home"></i>
                 <p>VOLTAR AO INÍCIO</p>
             </a>
+        </div>
+        <!--Pop Out-->
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="conteudoPopout">
+              <div class="close-btn" onclick="togglePopup()">&times;</div>
+              <i class="fas fa-check-circle"></i>
+              <h1>OBRIGADO PELA SUA MENSAGEM!</h1>
+              <p>
+                Sua mensagem foi enviada diretamente para nosso email
+                vamos ler e analisar ela com muuuuuito carinho <br> ♥
+              </p>
+            </div>
         </div>
     </body>
 </html>
