@@ -1,0 +1,294 @@
+/*Header*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: overlay;
+    overflow-x: hidden;
+}
+/*Scroll Bar*/
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#39B54A,#00ff2265);
+    border-radius: 20px;
+}
+
+/* Fale Conosco */
+
+.contato {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#0e2c12c5,#0e2c12c5), url('./bkg/bkgfale.jpg');
+    background-size: cover;
+}
+
+.contato .conteudo {
+    max-width: 800px;
+    text-align: center;
+}
+
+.contato .conteudo h2 {
+    font-size: 3em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline #39B54A;
+}
+
+.contato .conteudo p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 5%;
+}
+
+.container .contatoInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contatoInfo .caixa {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contatoInfo .icone {
+    color: #fff;
+}
+
+.container .contatoInfo .caixa .icone {
+    min-width: 60px;
+    height: 60px;
+    background: #39B54A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contatoInfo .caixa .texto {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contatoInfo .caixa .texto h3 {
+    font-weight: 500;
+    color: #39B54A;
+}
+
+.texto a{
+    text-decoration: none;
+    color: white;
+}
+
+.contatoForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.contatoForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contatoForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contatoForm .inputBox input, .contatoForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+
+.contatoForm .inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contatoForm .inputBox input:focus ~ label, 
+.contatoForm .inputBox input:valid ~ label,
+.contatoForm .inputBox textarea:focus ~ label, 
+.contatoForm .inputBox textarea:valid ~ label{
+    color: #39B54A;
+    font-weight: 500;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contatoForm .inputBox input[type="submit"] {
+    width: 100%;
+    background: #39b54a;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contatoForm .inputBox input[type="submit"]:hover {
+    content: "";
+    background: #333;
+    color: #39B54A;
+}
+
+.home {
+    padding-top: 8%;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.home i {
+    display: flex;
+    justify-content: center;
+}
+
+.home a:hover {
+    color: #39B54A;
+}
+
+/* Responsivo */
+
+@media (max-width: 700px) {
+    .contato {
+        padding: 10%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .contatoForm {
+        width: 100%;
+        padding: 40px;
+        background: #fff;
+    }
+    .texto h3 {
+        font-size: 1em;
+    }
+    .texto p {
+        font-size: 1em;
+    }
+    .container .contatoInfo {
+        margin-bottom: 10px;
+    }
+    .container .contatoInfo {
+        width: 100%;
+    }
+}
+
+/*PopOut*/
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:#000000b3;
+  z-index:1;
+  display:none;
+}
+ 
+.popup .conteudoPopout {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  background:#fff;
+  width:500px;
+  height:270px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  border-radius: 10px;
+  font-family:"Open Sans",sans-serif;
+}
+ 
+.popup .close-btn {
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#222;
+  color:#fff;
+  font-size:25px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
+  overflow: hidden;
+}
+ 
+.popup.active .overlay {
+  display:block;
+}
+ 
+.popup.active .conteudoPopout {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+
+.conteudoPopout{
+    overflow:hidden;
+}
+
+.conteudoPopout h1 {
+    font-size:1.9em;
+}
+
+.conteudoPopout i {
+    color:#39B54A;
+    font-size:340%;
+}
+
+@media (max-width: 700px) {
+    .popup .conteudoPopout {
+        width:80%;
+        height:33%;
+      }
+}
