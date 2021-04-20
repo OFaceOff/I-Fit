@@ -155,7 +155,7 @@
     transform: translateY(-20px);
 }
 
-.contatoForm .inputBox input[type="submit"] {
+.contatoForm .inputBox button[type="button"] {
     width: 100%;
     background: #39b54a;
     border-radius: 20px;
@@ -166,7 +166,7 @@
     font-size: 18px;
 }
 
-.contatoForm .inputBox input[type="submit"]:hover {
+.contatoForm .inputBox button[type="button"]:hover {
     content: "";
     background: #333;
     color: #39B54A;
@@ -273,7 +273,7 @@
   transform:translate(-50%,-50%) scale(1);
 }
 
-.conteudoPopout{
+.conteudoPopout {
     overflow:hidden;
 }
 

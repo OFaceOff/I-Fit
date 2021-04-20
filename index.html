@@ -12,25 +12,22 @@
         <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <!--Botão Whatsapp-->
-        <div>
-            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
-            <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" width="100px" height="" title="I Fit WhatsApp">
-        </div>
         <!--Header-->
         <section class="header" id="Inicio">
             <nav>
-                <a href="#Inicio"><img src="assets/img/logo com nome.png" alt="I Fit logo"></a>
+                <a href="#Inicio">
+                    <img src="assets/img/Logo_Ifit.png" alt="I Fit logo">
+                </a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="index.html">INÍCIO</a></li>
                         <li><a href="cardapio.html">CARDÁPIO</a></li>
-                        <li><a href="index.html#Sobre">SOBRE</a></li>
-                        <li><a href="#Fale">FALE CONOSCO</a></li>
+                        <li><a href="#Planos">PLANOS</a></li>
+                        <li><a href="#Fale">CONTATO</a></li>
                     </ul>
                 </div>
-                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
             <div class="text-box">
                 <h1>I Fit Delivery</h1>
@@ -68,19 +65,19 @@
             </p>
             <div class="plan-row">
                 <div class="plan-col">
-                    <img src="assets/img/plano iniciante.png">
+                    <img src="assets/img/plano_iniciante.png" alt="Conhecer mais sobre o plano iniciante">
                     <div class="layer">
                        <h3>SAIBA MAIS</h3>
                     </div>
                 </div>
                 <div class="plan-col">
-                    <img src="assets/img/intermediario.png">
+                    <img src="assets/img/intermediario.png" alt="Conhecer mais sobre o plano intermediario">
                     <div class="layer">
                         <h3>SAIBA MAIS</h3>
                     </div>
                 </div>
                 <div class="plan-col">
-                    <img src="assets/img/avancado.png">
+                    <img src="assets/img/avancado.png" alt="Conhecer mais sobre o plano avançado">
                     <div class="layer">
                         <h3>SAIBA MAIS</h3>
                     </div>
@@ -95,7 +92,7 @@
             </p>
             <div class="reco-row">
                 <div class="reco-col">
-                    <img src="assets/img/user1.jpg" id="recoimg1">
+                    <img src="assets/img/user1.jpg" id="recoimg1" alt="Usuário 1">
                     <div>
                         <p>
                             "Serviço exemplar, atencioso e bem rapido até, chegou tudo
@@ -110,7 +107,7 @@
                     </div>
                 </div>
                 <div class="reco-col">
-                    <img src="assets/img/user2.jpg" id="recoimg2">
+                    <img src="assets/img/user2.jpg" id="recoimg2" alt="Usuário 2">
                     <div>
                         <p>
                             "Boa tarde senhores, ótimo aperitivo para se alimentar diante
@@ -134,7 +131,7 @@
             </a>
         </section>
         <!--Rodapé-->
-        <footer class="footer">
+        <footer class="footer" id="Footer">
             <div class="footer-container">
                 <div class="footer-row">
                     <div class="footer-col">
@@ -151,6 +148,7 @@
                         <ul>
                             <li><a href="#Inicio">Início</a></li>
                             <li><a href="cardapio.html">Cardápio</a></li>
+                            <li><a href="#Planos">Planos</a></li>
                             <li><a href="#">Sobre</a></li>
                             <li><a href="#Fale">Contato</a></li>
                         </ul>
@@ -171,7 +169,6 @@
                             <li><a href="#">Pacotes</a></li>
                             <li><a href="#">Seja nosso parceiro</a></li>
                             <li><a href="#">Conheça Nossas Instalações</a></li>
-                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -191,6 +188,12 @@
                 </div>
             </div>
         </footer>
+        <!--Botão Whatsapp-->
+        <div>
+            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
+                <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" title="I Fit WhatsApp">
+            </a>
+        </div>
         <!--JavaScript para Menu-->
     <script>
         var navLinks = document.getElementById("navLinks");

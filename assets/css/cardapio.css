@@ -1,38 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: overlay;
+    overflow-x: hidden;
+}
+body {
+    background: #2f923c;
+}
+
+.cardapio {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.tipo {
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cardapio img {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+
+    background-color: #ffffff1a;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 10px #000000a4;
+    overflow: hidden;
+    border-top: 1px solid #ffffff80;
+    border-left: 1px solid #ffffff80;
+    backdrop-filter: blur(5px);
+}
+
+.item p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item button {
+    background-color: #202321;
+    color: #39b54a;
+    border-radius: 200px;
+    border: none;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #0f6e1c;
+    color: #fff;
+}
+
+body hr{
+    font-size: large;
+    border: 5px solid #39b54a;
+}
+
+.cardap-move {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
     /*cardapio*/
-    *{
+    * {
         overflow-x: hidden;
     }
-    .cardapio{
+    .cardapio {
         flex-direction: column;
         margin-right: 7%;
         width: 100%;
     }
-    .cardapio img{
+    .cardapio img {
         width: auto;
         justify-content: center;
         margin-right: 0%;
     }
-    .cardapio h2{
+    .cardapio h2 {
         font-size: 25px;
         margin-right: 0%;
     }
-    .cardapio h1{
+    .cardapio h1 {
         margin-right: 7%;
     }
-    .cardapio p{
+    .cardapio p {
         font-size: 17px;
         margin-right: 0%;
     }
-        /*tipo*/
-    .tipo{
+    /*tipo*/
+    .tipo {
         width: 100%;
         margin-right: 7%;        
     }
 
-    .tipo h2{
+    .tipo h2 {
         font-size: 22px;
         margin-right: 0%;
     }
@@ -41,35 +120,35 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* cardapio */
-    .cardapio{
+    .cardapio {
         flex-direction: row;
         display: flex;
         margin-right: 7%;
         width: 100%;
     }
-    .cardapio img{
+    .cardapio img {
         width: auto;
         justify-content: center;
         margin-right: 0%;
     }
-    .cardapio h2{
+    .cardapio h2 {
         font-size: 25px;
         margin-right: 0%;
     }
-    .cardapio h1{
+    .cardapio h1 {
         margin-right: 7%;
     }
-    .cardapio p{
+    .cardapio p {
         font-size: 17px;
         margin-right: 0%;
     }
-        /*tipo*/
-    .tipo{
+    /*tipo*/
+    .tipo {
         width: 100%;
         margin-right: 7%;        
     }
 
-    .tipo h2{
+    .tipo h2 {
         font-size: 22px;
         margin-right: 0%;
     }
@@ -78,30 +157,30 @@
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 1024px) {
     /* cardapio */
-    .cardapio{
+    .cardapio {
         flex-direction:row;
         display: flex;
         margin-right: 7%;
         width: 100%;
     }
-    .cardapio img{
+    .cardapio img {
         width: auto;
         justify-content: center;
         margin-right: 0%;
     }
-    .cardapio h2{
+    .cardapio h2 {
         font-size: 25px;
         margin-right: 0%;
     }
-    .cardapio h1{
+    .cardapio h1 {
         margin-right: 7%;
     }
-    .cardapio p{
+    .cardapio p {
         font-size: 17px;
         margin-right: 0%;
     }
-        /*tipo*/
-    .tipo{
+    /*tipo*/
+    .tipo {
         width: 100%;
         margin-right: 7%;        
     }
@@ -115,76 +194,77 @@
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /* cardapio */
-    .cardapio{
+    .cardapio {
         flex-direction: row;
         display: flex;
         margin-right: 7%;
         width: 100%;
     }
-    .cardapio img{
+    .cardapio img {
         width: auto;
         justify-content: center;
         margin-right: 0%;
     }
-    .cardapio h2{
+    .cardapio h2 {
         font-size: 25px;
         margin-right: 0%;
     }
-    .cardapio h1{
+    .cardapio h1 {
         margin-right: 7%;
     }
-    .cardapio p{
+    .cardapio p {
         font-size: 17px;
         margin-right: 0%;
     }
-        /*tipo*/
-    .tipo{
+    /*tipo*/
+    .tipo {
         width: 100%;
         margin-right: 7%;        
     }
 
-    .tipo h2{
+    .tipo h2 {
         font-size: 22px;
         margin-right: 0%;
     }
 }
 
+/*Media Query*/
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     /* cardapio */
-    .cardapio{
+    .cardapio {
         flex-direction: row;
         margin-right: auto;
     }
     
-    .cardapio img{
+    .cardapio img {
         width: auto;
         justify-content: center;
         margin-right: 0%;
     }
-    .cardapio h2{
+    .cardapio h2 {
         font-size: 25px;
         margin-right: 0%;
     }
-    .cardapio h1{
+    .cardapio h1 {
         margin-right: 7%;
     }
-    .cardapio p{
+    .cardapio p {
         font-size: 17px;
         margin-right: 0%;
     }
         /*tipo*/
-    .tipo{
+    .tipo {
         width: auto;       
     }
 
-    .tipo h2{
+    .tipo h2 {
         font-size: 22px;
         margin-right: auto;
         justify-content: center; 
     }
 
-    .item{
+    .item {
         width: 100%;
     }
 }

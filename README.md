@@ -28,4 +28,4 @@ Este projeto está sob a licença do MIT. Veja [LICENSE](https://github.com/OFac
 
 
 ---
-Feito com ♥ por <a href="https://github.com/OFaceOff">Face Off</a> :heavy_dollar_sign:, <a href="https://github.com/DanSilva19">Daniel Leandro</a> :ok_hand:, <a href="https://github.com/L-u-c-a-s-01">Lucas Sobrinho</a> :zzz:, <a href="https://github.com/icarorabello">Icaro Rabelo</a> :thumbsup: & <a href="https://github.com/markinzee">Marcos Paulo</a> :shipit:
+Feito com ♥ por <a href="https://github.com/OFaceOff">Gabriel Santiago (Face Off)</a> :heavy_dollar_sign:, <a href="https://github.com/DanSilva19">Daniel Leandro</a> :ok_hand:, <a href="https://github.com/icarorabello">Icaro Rabelo</a> :thumbsup: & <a href="https://github.com/markinzee">Marcos Paulo</a> :shipit:

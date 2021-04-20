@@ -7,18 +7,22 @@
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Background */
-body .plan{
+body .plan {
     padding: 20vh;
     background-color: #202321;
 }
 
-body .sobre{
+body .sobre {
     padding: 20vh;
     background-color: #39B54A;
 }
 
-body .promo{
+body .promo {
     padding: 20vh;
     background-color: #F8F7F7;
 }
@@ -34,6 +38,10 @@ body .promo{
     opacity: 70%;
 }
 
+#btn-wpp img {
+    width: 100px;
+}
+
 #btn-wpp:hover {
     opacity: 100%;
 }
@@ -45,8 +53,11 @@ body .promo{
     width: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#39B54A,#00ff2265);
+    background: linear-gradient(#39b54a63,#00ff2231);
     border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#39B54A,#00ff2265);
 }
 
 .header {
@@ -148,40 +159,40 @@ nav img {
     cursor: pointer;
 }
 
-.cardap-btn:hover{
+.cardap-btn:hover {
     color: #ffffff;
     border: 1px solid #39B54A;
     background: #39B54A;
     transition: 0.3s;
 }
 
-nav .fa{
+nav .fa {
     display: none;
 }
 
-@media(max-width: 700px){
-    #btn-wpp{
+@media(max-width: 700px) {
+    #btn-wpp {
     display: none;
     }
     *{
         overflow-x: hidden;
     }
-    ::-webkit-scrollbar{
+    ::-webkit-scrollbar {
         background: transparent;
         width: 10px;
     }
-    ::-webkit-scrollbar-thumb{
+    ::-webkit-scrollbar-thumb {
         background: linear-gradient(#39B54A,#00ff2265);
         border-radius: 20px;
     }
-    nav img{
+    nav img {
         width: 150px;
     }
-    .text-box h1{
+    .text-box h1 {
         text-decoration: underline #39B54A;
         font-size: 40px;
     }
-    .cardap-btn{
+    .cardap-btn {
         display: inline-block;
         text-decoration: none;
         color: #fff;
@@ -193,10 +204,10 @@ nav .fa{
         position: relative;
         cursor: pointer;
     }
-    .nav-links ul li{
+    .nav-links ul li {
         display: block;
     }
-    .nav-links{
+    .nav-links {
         border-radius: 5px;
         position: absolute;
         background: #39B54A;
@@ -208,27 +219,27 @@ nav .fa{
         z-index: 2;
         transition: 1s;
     }
-    nav .fa{
+    nav .fa {
         display: block;
         color: #fff;
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
     }
-    .nav-links ul{
+    .nav-links ul {
         padding: 30px;
     }
 }
 
 /*-- Promoções --*/
-.promo{
+.promo {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.promo h1{
+.promo h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +248,7 @@ nav .fa{
     text-decoration: underline #39B54A;
 }
 
-#promotxt{
+#promotxt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +256,7 @@ nav .fa{
     font-size: 25px;
 }
 
-.promo p{
+.promo p {
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -253,14 +264,14 @@ nav .fa{
     color: #fff;
 }
 
-.promo-row{
+.promo-row {
     width: 100%;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.promos-col{
+.promos-col {
     display: flex;
     flex-basis: 32%;
     height: 250px;
@@ -280,7 +291,7 @@ nav .fa{
     transition: 0.1s;
 }
 
-#txt1 p{
+#txt1 p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,7 +304,7 @@ nav .fa{
     overflow: hidden;
 }
 
-#txt2 p{
+#txt2 p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,7 +318,7 @@ nav .fa{
     overflow: hidden;
 }
 
-#txt3 p{
+#txt3 p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,18 +333,18 @@ nav .fa{
     overflow: hidden;
 }
 
-.promos-col:hover{
+.promos-col:hover {
     box-shadow: 0 0 20px 0px #202321;
 }
 
 /*-- Planos --*/
-.plan-row{
+.plan-row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.plan{
+.plan {
     color: #39B54A;
     width: 80%;
     margin: auto;
@@ -341,7 +352,7 @@ nav .fa{
     padding-top: 50px;
 }
 
-.plan-col{
+.plan-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -349,23 +360,23 @@ nav .fa{
     overflow: hidden;
 }
 
-.plan-col img{
+.plan-col img {
     width: 100%;
     display: block;
 }
 
-.plan h1{
+.plan h1 {
     text-decoration: none;
     font-size: 5em;
     font-weight: 600;
 }
 
-.plan p{
+.plan p {
     font-size: 1.9em;
     color: #fff;
 }
 
-.layer{
+.layer {
     cursor: pointer;
     background: transparent;
     height: 100%;
@@ -376,15 +387,15 @@ nav .fa{
     transition: 0.5s;
 }
 
-.layer:hover{
+.layer:hover {
     background: #39b54ae3;
 }
 
-.plblu:hover{
+.plblu:hover {
     filter: blur(4px);
 }
 
-.layer h3{
+.layer h3 {
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -397,20 +408,20 @@ nav .fa{
     transition: 0.5s;
 }
 
-.layer:hover h3{
+.layer:hover h3 {
     bottom: 49%;
     opacity: 1;
 }
 
 /*-- Sobre --*/
-.sobre{
+.sobre {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.sobre p{
+.sobre p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,7 +433,7 @@ nav .fa{
     padding-right: 10%;
 }
 
-.sobre h1{
+.sobre h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,7 +442,7 @@ nav .fa{
     padding-right: 10%;
 }
 
-.sobre-row{
+.sobre-row {
     position: relative;
     right: 4%;
     margin-top: 5%;
@@ -439,26 +450,26 @@ nav .fa{
     justify-content: space-between;
 }
 
-.sobre-col{
+.sobre-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.sobre-col img{
+.sobre-col img {
     width: 100%;
     border-radius: 20px;
 
 }
 
-.sobre-col p{
+.sobre-col p {
     font-weight: 299;
     padding-top: 0;
     text-align: center;
 }
 
-.sobre-col h3{
+.sobre-col h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
@@ -467,7 +478,7 @@ nav .fa{
 }
 
 /*-- Recomendações --*/
-.recomendacoes{
+.recomendacoes {
     width: 80%;
     margin: auto;
     margin-top: 90px;
@@ -475,11 +486,11 @@ nav .fa{
     text-align: center;
 }
 
-#recotext{
+#recotext {
     font-size: 18px;
 }
 
-.reco-col{
+.reco-col {
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -491,38 +502,38 @@ nav .fa{
     cursor: default;
 }
 
-.reco-col img{
+.reco-col img {
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
 }
 
-#recoimg1{
+#recoimg1 {
     height: 130px;
     width: 200px;
 }
 
-#recoimg2{
+#recoimg2 {
     height: 130px;
     width: 200px;
 }
 
-.recomendacoes .reco-col p{
+.recomendacoes .reco-col p {
     font-style: italic;
     font-weight: 450;
     padding: 0;
 }
 
-.reco-col h3{
+.reco-col h3 {
     margin-top: 15px;
     text-align: left;
 }
 
-.reco-col i{
+.reco-col i {
     color: #202321;
 }
 
-.recomendacoes p{
+.recomendacoes p {
     color: black;
     font-size: 14px;
     font-weight: 300;
@@ -530,23 +541,23 @@ nav .fa{
     padding: 10px;
 }
 
-.recomendacoes h1{
+.recomendacoes h1 {
     text-decoration: underline #39B54A;
     font-size: 36px;
     font-weight: 600;
 }
 
-.reco-row{
+.reco-row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
 
 /*-- Contate --*/
-.fale{
+.fale {
     margin: 100px auto;
     width: 80%;
-    background-image: url('https://res.cloudinary.com/face-studio/image/upload/v1616381755/I%20Fit/to_no_talento_xfd8ob.jpg');
+    background-image: url('./bkg/bkgfalead.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -554,7 +565,7 @@ nav .fa{
     padding: 150px 0;
     box-shadow: 0 0 20px 0px #000000;
 }
-.fale h1{
+.fale h1 {
     font-size: 36px;
     font-weight: 600;
     color: #fff;
@@ -564,26 +575,26 @@ nav .fa{
 }
 
 /*-- Rodapé --*/
-.footer{
+.footer {
     background-color: #202321;
     padding: 70px 0;
 }
 
-.footer-container{
+.footer-container {
     max-width: 1170px;
     margin: auto;
 }
 
-.footer ul{
+.footer ul {
     list-style: none;
 }
 
-.footer-row{
+.footer-row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-row p{
+.footer-row p {
     padding-top: 70px;
     text-align: center;
     margin: auto;
@@ -596,12 +607,12 @@ nav .fa{
     display: block;
 }
 
-.footer-col{
+.footer-col {
     width: 17%;
     padding: 15px;
 }
 
-.footer-col h4{
+.footer-col h4 {
     cursor: default;
     font-size: 18px;
     color: #ffffff;
@@ -611,7 +622,7 @@ nav .fa{
     position: relative;
 }
 
-.footer-col h4::before{
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
@@ -622,11 +633,11 @@ nav .fa{
     width: 50px;
 }
 
-.footer-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
@@ -637,7 +648,7 @@ nav .fa{
     transition: all 0.3s ease;
 }
 
-.footer-col span{
+.footer-col span {
     cursor: default;
     font-weight: 900;
     font-size: 1em;
@@ -649,16 +660,16 @@ nav .fa{
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
     color: #ffffff;
     padding: 5px;
 }
 
-.footer-col span:hover{
+.footer-col span:hover {
     color: #ffffff;
 }
 
-.footer-col .fsocial-links a{
+.footer-col .fsocial-links a {
     overflow: hidden;
     display: inline-block;
     height: 40px;
@@ -672,12 +683,12 @@ nav .fa{
     transition: all 0.3s ease;
 }
 
-.footer-col .fsocial-links a:hover{
+.footer-col .fsocial-links a:hover {
     color: #202321;
     background-color: #39B54A;
 }
 
-#fsfo{
+#fsfo {
     color: #bbbbbb4f;
     text-decoration: none;
 }
@@ -686,116 +697,116 @@ nav .fa{
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     /*Background*/
-    body .plan{
+    body .plan {
         padding: 11vh;
     }
-    body .sobre{
+    body .sobre {
         padding: 11vh;
     }
-    body .promo{
+    body .promo {
         padding: 11vh;
     }
-    body .recomendacoes{
+    body .recomendacoes {
         padding: 11vh;
     }
     /*Header*/
-    .text-box h1{
+    .text-box h1 {
         font-size: 4em;
     }
     /*Promoção*/
-    .promo-row{
+    .promo-row {
         display: flex;
         position: relative;
         right: 6%;
         flex-direction: column;
         width: 90%;
     }
-    .promos-col{
+    .promos-col {
         width: 90%;
         margin-right: 7%;
     }
-    #promotxt{
+    #promotxt {
         font-size: 1.9em;
         line-height: 100%;
         padding-right: 20%;
     }
-    .promo h1{
+    .promo h1 {
         padding-right: 20%;
     }
-    #txt1 p{
+    #txt1 p {
         font-size: 3.5em;
         line-height: 80%;
         padding-right: 25%;
     }
-    #txt2 p{
+    #txt2 p {
         font-size: 2.7em;
         line-height: 80%;
         padding-right: 20%;
     }
-    #txt3 p{
+    #txt3 p {
         padding-right: 20%;
     }
     /*Sobre*/
-    .sobre-row{
+    .sobre-row {
         flex-direction: column;
         position: relative;
         right: 11%;
     }
-    .sobre h1{
+    .sobre h1 {
         position: relative;
         right: 7%;
     }
-    .sobre p{
+    .sobre p {
         position: relative;
         right: 7%;
     }
-    .sobre-row p{
+    .sobre-row p {
         position: relative;
         left: 2%;
     }
     /*Planos*/
-    .plan-row{
+    .plan-row {
         flex-direction: column;
         position: relative;
         right: 11%;
     }
-    .plan h1{
+    .plan h1 {
         position: relative;
         right: 11%;
         line-height: 100%;
         font-size: 4em;
         overflow: hidden;
     }
-    .plan p{
+    .plan p {
         position: relative;
         right: 11%;
         font-size: 1em;
     }
     /*Recomendações*/
-    .recomendacoes h1{
+    .recomendacoes h1 {
         position: relative;
         right: 10%;
     }
-    .reco-row{
+    .reco-row {
         flex-direction: column;
         position: relative;
         right: 11%;
     }
-    #recotext{
+    #recotext {
         position: relative;
         right: 10%;
     }
-    #recoimg1{
+    #recoimg1 {
         height: 100px;
         width: 500px;
     }
     
-    #recoimg2{
+    #recoimg2 {
         height: 100px;
         width: 500px;
     }
     /*Footer*/
-    .footer-col{
+    .footer-col {
         width: 100%;
     }
 }
@@ -803,85 +814,85 @@ nav .fa{
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     /*Background*/
-    body .plan{
+    body .plan {
         padding: 14vh;
     }
-    body .sobre{
+    body .sobre {
         padding: 14vh;
     }
-    body .promo{
+    body .promo {
         padding: 14vh;
     }
-    body .recomendacoes{
+    body .recomendacoes {
         padding: 14vh;
     }
     /*Header*/
-    .text-box h1{
+    .text-box h1 {
         font-size: 5em;
     }
     /* PROMOÇÃO */
-    .promo-row{
+    .promo-row {
         flex-direction: column;
         margin-right: 8%;
     }
-    .promos-col{
+    .promos-col {
         width: 90%;
     }
-    #promotxt{
+    #promotxt {
         font-size: 22px;
         line-height: 2rem;
         margin-right: 8%;
     }
-    .promo h1{
+    .promo h1 {
         margin-right: 8%;
     }
-    #txt1 p{
+    #txt1 p {
         padding-right: 8%;
     }
-    #txt2 p{
+    #txt2 p {
         padding-right: 10%;
     }
-    #txt3 p{
+    #txt3 p {
         padding-right: 20%;
     }
     /*Sobre*/
-    .sobre-row{
+    .sobre-row {
         flex-direction: column;
     }
     /*Planos*/
-    .plan-row{
+    .plan-row {
         flex-direction: column;
         position: relative;
         right: 8%;
     }
-    .plan h1{
+    .plan h1 {
         position: relative;
         right: 8%;
     }
-    .plan p{
+    .plan p {
         position: relative;
         right: 8%;
     }
     /*Recomendações*/
-    .recomendacoes h1{
+    .recomendacoes h1 {
         position: relative;
         right: 10%;
     }
-    .reco-row{
+    .reco-row {
         flex-direction: column;
         position: relative;
         right: 11%;
     }
-    #recotext{
+    #recotext {
         position: relative;
         right: 10%;
     }
-    #recoimg1{
+    #recoimg1 {
         height: 100px;
         width: 300px;
     }
     
-    #recoimg2{
+    #recoimg2 {
         height: 100px;
         width: 300px;
     }
@@ -895,30 +906,30 @@ nav .fa{
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     /*Background*/
-    body .plan{
+    body .plan {
         padding: 18vh;
     }
-    body .sobre{
+    body .sobre {
         padding: 18vh;
     }
-    body .promo{
+    body .promo {
         padding: 18vh;
     }
-    body .recomendacoes{
+    body .recomendacoes {
         padding: 18vh;
     }
     /* PROMOÇÃO */
-    .promo-row{
+    .promo-row {
         flex-direction: column;
         margin-right: 27%;
     }
-    .promos-col{
+    .promos-col {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
     }
-    #promotxt{
+    #promotxt {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -926,64 +937,64 @@ nav .fa{
         line-height: 2rem;
         padding-right: 15%;
     }
-    .promo h1{
+    .promo h1 {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-right: 15%;
     }
-    #txt1 p{
+    #txt1 p {
         line-height: 89%;
         font-size: 3em;
         padding-right: 50%;
         padding-left: 40%;
     }
-    #txt2 p{
+    #txt2 p {
         line-height: 100%;
         font-size: 2em;
         padding-right: 50%;
         padding-left: 40%;
     }
-    #txt3 p{
+    #txt3 p {
         line-height: 100%;
         font-size: 3em;
         padding-right: 10%;
         padding-left: 10%;
     }
     /*planos*/
-    .plan-row{
+    .plan-row {
         position: relative;
         right: 8%;
     }
-    .plan h1{
+    .plan h1 {
         position: relative;
         right: 8%;
     }
-    .plan p{
+    .plan p {
         position: relative;
         right: 8%;
     }
     /*Recomendações*/
-    .recomendacoes h1{
+    .recomendacoes h1 {
         position: relative;
         right: 5%;
     }
-    .reco-row{
+    .reco-row {
         flex-direction: column;
         justify-content: space-between;
         position: relative;
         right: 5%;
     }
-    #recotext{
+    #recotext {
         position: relative;
         right: 5%;
     }
-    #recoimg1{
+    #recoimg1 {
         height: 100px;
         width: 150px;
     }
     
-    #recoimg2{
+    #recoimg2 {
         height: 100px;
         width: 150px;
     }
@@ -992,61 +1003,61 @@ nav .fa{
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     /*Background*/
-    body .plan{
+    body .plan {
         padding: 22vh;
     }
-    body .sobre{
+    body .sobre {
         padding: 22vh;
     }
-    body .promo{
+    body .promo {
         padding: 22vh;
     }
-    body .recomendacoes{
+    body .recomendacoes {
         padding: 22vh;
     }
     /* PROMOÇÃO */
-    .promo-row{
+    .promo-row {
         flex-direction: space-between;
         margin-right: 9%;
     }
-    .promos-col{
+    .promos-col {
         width: 100%;
         height: 250px;
     }
-    #promotxt{
+    #promotxt {
         font-size: 31px;
         line-height: 2rem;
         margin-right: 9%;
     }
-    .promo h1{
+    .promo h1 {
         margin-right: 9%;
     }
-    #txt1 p{
+    #txt1 p {
         line-height: 100%;
         font-size: 3em;
         margin-right: 17%;
     }
-    #txt2 p{
+    #txt2 p {
         line-height: 100%;
         font-size: 2em;
         margin-right: 17%;
     }
-    #txt3 p{
+    #txt3 p {
         line-height: 100%;
         font-size: 3em;
         padding-right: 10%;
         padding-left: 10%;
     }
     /*planos*/
-    .plan-row{
+    .plan-row {
         position: relative;
         right: 8%;
     }
-    .plan h1{
+    .plan h1 {
         position: relative;
         right: 8%;
     }
-    .plan p{
+    .plan p {
         position: relative;
         right: 8%;
     }
@@ -1055,71 +1066,71 @@ nav .fa{
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     /*Background*/
-    body .plan{
+    body .plan {
         padding: 26vh;
     }
-    body .sobre{
+    body .sobre {
         padding: 26vh;
     }
-    body .promo{
+    body .promo {
         padding: 26vh;
     }
-    body .recomendacoes{
+    body .recomendacoes {
         padding: 26vh;
     }
     /* PROMOÇÃO */
-    .promo-row{
+    .promo-row {
         flex-direction: space-between;
         margin-right: 8%;
     }
-    .promos-col{
+    .promos-col {
         padding-right: 50px;
         width: 50%;
     }
-    .promo img{
+    .promo img {
         width: 300px;
     }
-    #promotxt{
+    #promotxt {
         font-size: 28px;
         line-height: 2rem;
         margin-right: 8%;
     }
-    .promo h1{
+    .promo h1 {
         margin-right: 8%;
     }
     /*planos*/
-    .plan-row{
+    .plan-row {
         position: relative;
         right: 5%;
     }
-    .plan h1{
+    .plan h1 {
         position: relative;
         right: 5%;
     }
-    .plan p{
+    .plan p {
         position: relative;
         right: 5%;
     }
     /*Recomendações*/
-    .recomendacoes h1{
+    .recomendacoes h1 {
         position: relative;
         right: 6%;
     }
-    .reco-row{
+    .reco-row {
         justify-content: space-between;
         position: relative;
         right: 6%;
     }
-    #recotext{
+    #recotext {
         position: relative;
         right: 6%;
     }
-    #recoimg1{
+    #recoimg1 {
         height: 100px;
         width: 200px;
     }
     
-    #recoimg2{
+    #recoimg2 {
         height: 100px;
         width: 200px;
     }
@@ -1127,7 +1138,7 @@ nav .fa{
 
 /*-- Pagina Sobre --*/
 
-.cardap-header{
+.cardap-header {
     text-align: center;
     height: 50vh;
     width: 100%;
@@ -1135,12 +1146,12 @@ nav .fa{
     background-position: center;
     background-size: cover;
     color: #fff;
-    overflow: hidden;
 }
 
-.cardap-header h1{
+.cardap-header h1 {
     color: #fff;
     margin-top: 100px;
     font-weight: 600;
     font-size: 55px;
+    text-decoration: underline #39B54A;
 }
