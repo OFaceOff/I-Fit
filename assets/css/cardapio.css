@@ -68,7 +68,7 @@ body {
     color: #fff;
 }
 
-body hr{
+body hr {
     font-size: large;
     border: 5px solid #39b54a;
 }
@@ -76,6 +76,9 @@ body hr{
 .cardap-move {
     padding-top: 50px;
     padding-bottom: 20px;
+}
+.cardap-header {
+    overflow: hidden;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
