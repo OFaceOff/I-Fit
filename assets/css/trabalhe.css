@@ -1,15 +1,24 @@
-.container {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: overlay;
+    overflow-x: hidden;
+  }
+
+  .trab-container {
     width: 50%;
     margin: 0 auto;
   }
-  .container b
-{
-  display: flex;
-  justify-content: center;
-}  
+  
+  .trab-container b {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }  
+
   .form-contact {
     width: 100%;
-    font-family: "Arial", Times, serif;
   }
   
   .form-contact-input {

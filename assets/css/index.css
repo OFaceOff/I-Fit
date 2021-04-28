@@ -477,6 +477,25 @@ nav .fa {
     margin-bottom: 15px;
 }
 
+.sobre-button {
+    position: relative;
+    right: 5%;
+    padding: 10px 24px;
+    cursor: pointer;
+
+    border: none;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius: 200px;
+    color: #39b54a;
+    background-color: #202321;
+}
+
+.sobre-button:hover {
+    color: white;
+    background: #0f6e1c;
+}
+
 /*-- Recomendações --*/
 .recomendacoes {
     width: 80%;
@@ -763,6 +782,10 @@ nav .fa {
     .sobre-row p {
         position: relative;
         left: 2%;
+    }
+    .sobre-button {
+        position: relative;
+        left: -12%;
     }
     /*Planos*/
     .plan-row {
@@ -1136,7 +1159,7 @@ nav .fa {
     }
 }
 
-/*-- Pagina Sobre --*/
+/*-- Pagina Cardápio --*/
 
 .cardap-header {
     text-align: center;
@@ -1149,6 +1172,26 @@ nav .fa {
 }
 
 .cardap-header h1 {
+    color: #fff;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 55px;
+    text-decoration: underline #39B54A;
+}
+
+/*-- Pagina Trabalhe --*/
+
+.trab-header {
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(#0e2c12c5,#0e2c12c5), url('https://res.cloudinary.com/face-studio/image/upload/v1616538220/I%20Fit/girlwithfood_xjiut6.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.trab-header h1 {
     color: #fff;
     margin-top: 100px;
     font-weight: 600;
