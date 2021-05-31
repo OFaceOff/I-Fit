@@ -24,8 +24,8 @@ $(function () {
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'Chips de batata doce', summary: 'Chips de batata doce', price: 10, quantity: 1, image: "assets/img/comidas/chips_de_batata_doce.png"}
         /*
+        {id: 1, name: 'Chips de batata doce', summary: 'Chips de batata doce', price: 10, quantity: 1, image: "assets/img/comidas/chips_de_batata_doce.png"},
         {id: 1, name: 'Chips de batata doce', summary: 'Chips de batata doce', price: 10, quantity: 1, image: "assets/img/comidas/chips_de_batata_doce.png"},
         {id: 2, name: 'Chips de banana da terra', summary: 'summary 2', price: 20, quantity: 1, image: 'images/img_2.png'},
         {id: 3, name: 'Coxinhas fitness', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}

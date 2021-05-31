@@ -741,6 +741,7 @@ nav .fa {
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     /*Background*/
+    
     body .plan {
         padding: 11vh;
     }
@@ -758,11 +759,13 @@ nav .fa {
     }
 
     /*Header*/
+
     .text-box h1 {
         font-size: 4em;
     }
 
     /*Promoção*/
+
     .promo-row {
         display: flex;
         position: relative;
@@ -815,6 +818,7 @@ nav .fa {
     }
 
     /*Sobre*/
+
     .sobre-row {
         flex-direction: column;
         position: relative;
@@ -851,6 +855,7 @@ nav .fa {
     }
 
     /*Planos*/
+
     .plan-row {
         flex-direction: column;
         position: relative;
@@ -872,6 +877,7 @@ nav .fa {
     }
 
     /*Recomendações*/
+
     .recomendacoes h1 {
         position: relative;
         right: 15%;
@@ -899,6 +905,7 @@ nav .fa {
     }
 
     /*Footer*/
+
     .footer-col {
         width: 100%;
     }
@@ -929,11 +936,13 @@ nav .fa {
     }
 
     /*Header*/
+
     .text-box h1 {
         font-size: 5em;
     }
 
     /* PROMOÇÃO */
+
     .promo-row {
         flex-direction: column;
         position: relative;
@@ -972,6 +981,7 @@ nav .fa {
     }
 
     /*Sobre*/
+
     .sobre-row {
         flex-direction: column;
         position: relative;
@@ -1004,6 +1014,7 @@ nav .fa {
     }
 
     /*Planos*/
+
     .plan-row {
         flex-direction: column;
         position: relative;
@@ -1021,6 +1032,7 @@ nav .fa {
     }
 
     /*Recomendações*/
+
     .recomendacoes h1 {
         position: relative;
         right: 15%;
@@ -1073,6 +1085,7 @@ nav .fa {
     }
 
     /* PROMOÇÃO */
+
     .promo-row {
         flex-direction: column;
         margin-right: 27%;
@@ -1123,6 +1136,7 @@ nav .fa {
     }
 
     /*planos*/
+
     .plan-row {
         position: relative;
         right: 11%;
@@ -1136,7 +1150,9 @@ nav .fa {
         position: relative;
         right: 11%;
     }
+
     /*Recomendações*/
+
     .recomendacoes h1 {
         position: relative;
         right: 10%;
@@ -1182,6 +1198,7 @@ nav .fa {
     }
 
     /* PROMOÇÃO */
+
     .promo-row {
         flex-direction: space-between;
         margin-right: 9%;
@@ -1222,6 +1239,7 @@ nav .fa {
     }
 
     /*planos*/
+
     .plan-row {
         position: relative;
         right: 5%;
@@ -1238,6 +1256,7 @@ nav .fa {
     }
 
     /*Recomendações*/
+
     .recomendacoes h1 {
         position: relative;
         right: 3%;
@@ -1281,7 +1300,9 @@ nav .fa {
     body .recomendacoes {
         padding: 26vh;
     }
+
     /* PROMOÇÃO */
+
     .promo-row {
         flex-direction: space-between;
         margin-right: 8%;
@@ -1301,7 +1322,9 @@ nav .fa {
     .promo h1 {
         margin-right: 8%;
     }
+
     /*planos*/
+
     .plan-row {
         position: relative;
         right: 5%;
@@ -1314,7 +1337,9 @@ nav .fa {
         position: relative;
         right: 5%;
     }
+
     /*Recomendações*/
+
     .recomendacoes h1 {
         position: relative;
         right: 6%;
