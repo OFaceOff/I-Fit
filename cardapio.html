@@ -1,363 +1,406 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/cardapio.css">
-    <link rel="shortcut icon" href="assets/img/Favicon.png">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
-    <title>I Fit - Cardápio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/Favicon.png">
+        <link rel="stylesheet" href="assets/css/cardapio.css">
+        <link rel="stylesheet" href="assets/css/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ae55160746.js" crossorigin="anonymous"></script>
+        <title>I Fit - Cardápio</title>
+    </head>
     <body>
-       <!-- HEADER -->
-      <section class="cardap-header" id="Inicio">
-         <nav>
-             <a href="index.html"><img src="assets/img/Logo_Ifit.png" alt="I Fit logo"></a>
-             <div class="nav-links" id="navLinks">
-                 <i class="fa fa-times" onclick="hideMenu()"></i>
-                 <ul>
-                     <li><a href="index.html">INÍCIO</a></li>
-                     <li><a href="cardapio.html">CARDÁPIO</a></li>
-                     <li><a href="index.html#Planos">PLANOS</a></li>
-                     <li><a href="fale.html">CONTATO</a></li>
-                     <li><a href="trabalhe.html">TRABALHE CONOSCO</a></li>
-                 </ul>
-             </div>
-                 <i class="fa fa-bars" onclick="showMenu()"></i>
-         </nav>
-         <h1> CARDÁPIO </h1>
-     </section>
-     <hr>
-     
-       <!--Lanches-->
-      <section class="cardap-move">
-       <div class="tipo"><p>Lanches</p></div>
-       <div class="cardapio">
-             <div class="item" data-tilt>
-                <h2>Chips de batata doce</h2>
-                <img src="assets/img/comidas/chips_de_batata_doce.png" alt="Chips de batata doce">
-                <p>Crocantes chips de batata doce sem óleo</p>
-                <h1>R$ 5,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Chips de banana da terra</h2>
-                <img src="assets/img/comidas/chips_de_banana_da_terra.png" alt="Chips de banana terra">
-                <p>Deliciosos chips de banana da terra (salgados ou doces)</p>
-                <h1>R$ 5,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Coxinhas fitness</h2>
-                <img src="assets/img/comidas/coxinha_fitness.png" alt="Coxinha fitness">
-                <p>Coxinhas feitas com massa de batata doce</p>
-                <h1>R$ 3,00</h1>
-                <button>Comprar</button>
-             </div>
-      </div>
-
-      <div class="cardapio">
-
-             <div class="item" data-tilt>
-                <h2>Crepioca verde</h2>
-                <img src="assets/img/comidas/crepioca_verde.png" alt="Crepioca verde">
-                <p>Deliciosa crepioca de diversos sabores</p>
-                <h1>R$ 12,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Rap integral</h2>
-                <img src="assets/img/comidas/rap_de_frango_com_legumes_light.png" alt="Rap de frango com legumes light">
-                <p>Delicioso rap integral de diversos sabores</p>
-                <h1>R$ 14,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Sanduíche integral</h2>
-                <img src="assets/img/comidas/sanduiche_natural_de_frango.png" alt="Sanduiche natural de frango">
-                <p>Sanduiche de frango com pasta de ricota</p>
-                <h1>R$ 10,00</h1>
-                <button>Comprar</button>
-            </div>
-
-      </div><br><br>
-                     <!---Pratos Principais-->
-             <div class="tipo"><p>Pratos Principais</p></div>
-          <div class="cardapio">
-            <div class="item" data-tilt>
-                <h2>Arroz com filé de peixe</h2>
-                <img src="assets/img/comidas/arroz_integra_com_ervilha_file_de_peixe_e_salada.png" alt="Arroz integral com ervilha, filé de peixe e salada">
-                <p>Perfeito para matar sua fome no almoço ou na janta</p>
-                <h1>R$ 19,00</h1>
-                <button>Comprar</button>
-             </div>
-            
-             <div class="item" data-tilt>
-                <h2>Carne moida com purê</h2>
-                <img src="assets/img/comidas/carne_moida_com_pure_de_batata_doce.jpg" alt="Carne moida com purê de batata doce">
-                <p>Patinho moido acompanhado de purê de batata doce</p>
-                <h1>R$ 22,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Escondidinho light</h2>
-                <img src="assets/img/comidas/escondidinho_light_batata_doce_e_frango.png" alt="Escondidinho light de batata doce com frango ou carne">
-                <p>Escondidinho de batata doce (frango ou carne)</p>
-                <h1>R$ 25,00</h1>
-                <button>Comprar</button>
-             </div>
-
-            </div>
-
-            <div class="cardapio">
-             <div class="item" data-tilt>
-                <h2>Filé de peixe com purê</h2>
-                <img src="assets/img/comidas/file_de_peixe_com_pure_de_batata_doce.png" alt="Filé de peixe com pure de batata doce">
-                <p>Delicioso filé temperado com ervas finas</p>
-                <h1>R$ 22,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Frango com legumes</h2>
-                <img src="assets/img/comidas/frango_grelhado_com_legumes.png" alt="Frango grelhado com legumes">
-                <p>Saboroso frango acompanhado de legumes refogados</p>
-                <h1>R$ 20,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Hambúguer fit</h2>
-                <img src="assets/img/comidas/hamburguer_fit_de_frango.png" alt="Hamburguer de frango">
-                <p>Perfeito para quem não quer perder velhos costumes</p>
-                <h1>R$ 18,00</h1>
-                <button>Comprar</button>
-             </div>
-            </div>
-
-            <div class="cardapio">
-             <div class="item" data-tilt>
-                <h2>Lasanha de abobrinha</h2>
-                <img src="assets/img/comidas/lasanha_fitness_de_abobrinha.png" alt="Lasanha fitness de abobrinha">
-                <p>Deliciosa lasanha low carb com patinho moido</p>
-                <h1>R$ 24,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Macarrão de abobrinha</h2>
-                <img src="assets/img/comidas/macarrao_de_abobrinha.png" alt="Macarrão de abobrinha">
-                <p>Macarrão para quem não quer ganhar peso</p>
-                <h1>R$ 22,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Macarrão integral</h2>
-                <img src="assets/img/comidas/macarrao_integral.png" alt="Macarrão integral">
-                <p>Macarrão com molho de tomate caseiro</p>
-                <h1>R$ 10,00</h1>
-                <button>Comprar</button>
-             </div>
-            </div>
-
-            <div class="cardapio">
-             <div class="item" data-tilt>
-                <h2>Panqueca verde</h2>
-                <img src="assets/img/comidas/panqueca_verde.png" alt="Panqueca verde">
-                <p>Recheadas de carne ou frango</p>
-                <h1>R$ 24,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Salada de beringela</h2>
-                <img src="assets/img/comidas/salada_de_berinjela.png" alt="Salada de berinjela">
-                <p>Acompanhada de grão de bico</p>
-                <h1>R$ 20,00</h1>
-                <button>Comprar</button>
-             </div>
-
-             <div class="item" data-tilt>
-                <h2>Creme de cenoura</h2>
-                <img src="assets/img/comidas/sopa_de_cenoura_com_frango_e_gengibre.png" alt="Sopa de cenoura com frango e gengibre">
-                <p>Perfeita para quando o clima esfriar</p>
-                <h1>R$ 18,00</h1>
-                <button>Comprar</button>
-             </div>
-            </div>
-
-               <div class="cardapio">
-                <div class="item" data-tilt>
-                    <h2>Creme de mandioquinha</h2>
-                    <img src="assets/img/comidas/sopa_de_mandioquinha_com_frango.png" alt="Sopa de mandioquinha com frango">
-                    <p>Perfeita para quando o clima esfriar</p>
-                    <h1>R$ 22,00</h1>
-                    <button>Comprar</button>
+        <!--Header IFit-->
+        <section class="cardap-header" id="Inicio">
+            <nav>
+                <a href="index.html"><img src="assets/img/Logo_Ifit.png" alt="I Fit logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" id="hmenu" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">INÍCIO</a></li>
+                        <li><a href="#cardapio">CARDÁPIO</a></li>
+                        <li><a href="planos.html">PLANOS</a></li>
+                        <li><a href="fale.html">CONTATO</a></li>
+                        <li><a href="trabalhe.html">TRABALHE CONOSCO</a></li>
+                        <li><a href="login.html"><i class="far fa-user"></i></a></li>
+                    </ul>
                 </div>
-
-                <div class="item" data-tilt>
-                    <h2>Caldo de abóbora</h2>
-                    <img src="assets/img/comidas/sopa_fit_abobora.png" alt="Sopa fit de abobora">
-                    <p>Perfeita para quando o clima esfriar</p>
-                    <h1>R$ 20,00</h1>
-                    <button>Comprar</button>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> CARDÁPIO </h1>
+        </section>
+        <!--Cardápio-->
+        <section id="cardapio">
+            <div class="cardap-container">
+                <h1 id="teste">
+                    <div class="top-ico">
+                        <button onclick="myFunction()">
+                            <a href="login.html">
+                                <span class="glyphicon glyphicon-user my-account-icon"></span>
+                            </a>
+                        </button>
+                        |
+                        <button class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                            <span class="badge badge-notify my-cart-badge"></span>
+                        </button>
+                    </div>
+                </h1>
+                <h1 id="categorias"> Lanches </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt">
+                        <h1>Chips de batata doce</h1>
+                        <img src="assets/img/comidas/chips_de_batata_doce.png" alt="Chips de batata doce">
+                        <br><br>
+                        <h3>Crocantes chips de batata doce sem óleo<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="1" data-name="Chips de batata doce" data-summary="Chips de batata doce" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_batata_doce.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h2>Chips de banana da terra</h2>
+                        <img src="assets/img/comidas/chips_de_banana_da_terra.png" alt="Chips de batata da terra">
+                        <br><br>
+                        <h3>Deliciosos chips de banana da terra (salgados ou doces)<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="2" data-name="Chips de banana da terra" data-summary="Chips de banana da terra" data-price="5" data-quantity="1" data-image="assets/img/comidas/chips_de_banana_da_terra.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Coxinhas Fitness</h1>
+                        <img src="assets/img/comidas/coxinha_fitness.png" alt="Coxinha fitness">
+                        <br><br>
+                        <h3>Coxinhas feitas com massa de batata doce<br><strong>R$ 3,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="3" data-name="Coxinhas fitness" data-summary="Coxinhas fitness" data-price="3" data-quantity="1" data-image="assets/img/comidas/coxinha_fitness.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Crepioca verde</h1>
+                        <img src="assets/img/comidas/crepioca_verde.png" alt="Crepioca verde">
+                        <br><br>
+                        <h3>Deliciosa crepioca de diversos sabores uma delicia<br><strong>R$ 12,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="4" data-name="Crepioca verde" data-summary="Crepioca verde" data-price="12" data-quantity="1" data-image="assets/img/comidas/crepioca_verde.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
                 </div>
-
-                <div class="item" data-tilt>
-                    <h2>Sopa de legumes</h2>
-                    <img src="assets/img/comidas/sopas-de-legumes.png" alt="Sopa de legumes">
-                    <p>Quer fonte de nutrientes melhor ?</p>
-                    <h1>R$ 24,00</h1>
-                    <button>Comprar</button>
+                <hr>
+                <h1 id="categorias"> Pratos Principais </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt">
+                        <h1>Arroz com filé de peixe</h1>
+                        <img src="assets/img/comidas/arroz_integra_com_ervilha_file_de_peixe_e_salada.png" alt="Arroz com filé de peixe">
+                        <br><br>
+                        <h3>Perfeito para matar sua fome no almoço ou na janta<br><strong>R$ 19,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="5" data-name="Arroz com filé de peixe" data-summary="Arroz com filé de peixe" data-price="19" data-quantity="1" data-image="assets/img/comidas/arroz_integra_com_ervilha_file_de_peixe_e_salada.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Carne moida com purê</h1>
+                        <img src="assets/img/comidas/carne_moida_com_pure_de_batata_doce.jpg" alt="Carne moida com purê">
+                        <br><br>
+                        <h3>Patinho moido acompanhado de purê de batata doce<br><strong>R$ 22,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="6" data-name="Carne moida com purê" data-summary="Carne moida com purê" data-price="22" data-quantity="1" data-image="assets/img/comidas/carne_moida_com_pure_de_batata_doce.jpg">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Escondidinho light</h1>
+                        <img src="assets/img/comidas/escondidinho_light_batata_doce_e_frango.png" alt="Escondidinho light">
+                        <br><br>
+                        <h3>Escondidinho de batata doce (frango ou carne)<br><strong>R$ 25,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="7" data-name="Escondidinho light" data-summary="Escondidinho light" data-price="25" data-quantity="1" data-image="assets/img/comidas/escondidinho_light_batata_doce_e_frango.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Filé de peixe com purê</h1>
+                        <img src="assets/img/comidas/file_de_peixe_com_pure_de_batata_doce.png" alt="Filé de peixe com purê">
+                        <br><br>
+                        <h3>Delicioso filé temperado com ervas finas<br><strong>R$ 22,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="8" data-name="Filé de peixe com purê" data-summary="Filé de peixe com purê" data-price="22" data-quantity="1" data-image="assets/img/comidas/file_de_peixe_com_pure_de_batata_doce.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Frango com legumes</h1>
+                        <img src="assets/img/comidas/frango_grelhado_com_legumes.png" alt="Frango grelhado com legumes">
+                        <br><br>
+                        <h3>Saboroso frango acompanhado de legumes refogados<br><strong>R$ 20,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="9" data-name="Frango com legumes" data-summary="Frango com legumes" data-price="20" data-quantity="1" data-image="assets/img/comidas/frango_grelhado_com_legumes.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Hambúguer fit</h1>
+                        <img src="assets/img/comidas/hamburguer_fit_de_frango.png" alt="Hamburguer fit">
+                        <br><br>
+                        <h3>Perfeito para quem não quer perder velhos costumes<br><strong>R$ 18,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="10" data-name="Hambúguer fit" data-summary="Hambúguer fit" data-price="18" data-quantity="1" data-image="assets/img/comidas/hamburguer_fit_de_frango.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Lasanha de abobrinha</h1>
+                        <img src="assets/img/comidas/lasanha_fitness_de_abobrinha.png" alt="Lasanha de abobrinha">
+                        <br><br>
+                        <h3>Deliciosa lasanha low carb com patinho moido<br><strong>R$ 24,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="11" data-name="Lasanha de abobrinha" data-summary="Lasanha de abobrinha" data-price="24" data-quantity="1" data-image="assets/img/comidas/lasanha_fitness_de_abobrinha.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Macarrão de abobrinha</h1>
+                        <img src="assets/img/comidas/macarrao_de_abobrinha.png" alt="Macarrão de abobrinha">
+                        <br><br>
+                        <h3>Macarrão para quem não quer ganhar peso<br><strong>R$ 22,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="12" data-name="Macarrão de abobrinha" data-summary="Macarrão de abobrinha" data-price="22" data-quantity="1" data-image="assets/img/comidas/macarrao_de_abobrinha.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Macarrão integral</h1>
+                        <img src="assets/img/comidas/macarrao_integral.png" alt="Macarrão integral">
+                        <br><br>
+                        <h3>Macarrão com molho de tomate<br><strong>R$ 10,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="13" data-name="Macarrão integral" data-summary="Macarrão integral" data-price="10" data-quantity="1" data-image="assets/img/comidas/macarrao_integral.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Panqueca verde</h1>
+                        <img src="assets/img/comidas/panqueca_verde.png" alt="Panqueca verde">
+                        <br><br>
+                        <h3>Recheadas de carne ou frango<br><strong>R$ 24,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="14" data-name="Panqueca verde" data-summary="Panqueca verde" data-price="24" data-quantity="1" data-image="assets/img/comidas/panqueca_verde.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Salada de beringela</h1>
+                        <img src="assets/img/comidas/salada_de_berinjela.png" alt="Salada de berigela">
+                        <br><br>
+                        <h3>Acompanhada de grão de bico<br><strong>R$ 20,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="15" data-name="Salada de beringela" data-summary="Salada de beringela" data-price="20" data-quantity="1" data-image="assets/img/comidas/salada_de_berinjela.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Creme de cenoura</h1>
+                        <img src="assets/img/comidas/sopa_de_cenoura_com_frango_e_gengibre.png" alt="Creme de cenoura">
+                        <br><br>
+                        <h3>Gostosa e cremosa<br><strong>R$ 18,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="16" data-name="Creme de cenoura" data-summary="Creme de cenoura" data-price="18" data-quantity="1" data-image="assets/img/comidas/sopa_de_cenoura_com_frango_e_gengibre.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
                 </div>
-            
-            </div><br><br><br>
-
-            <!--Sobremesas-->
-            <div class="tipo"><p>Sobremesas</p></div>
-            <div class="cardapio">
-
-                <div class="item" data-tilt>
-                    <h2>Mousse fitness</h2>
-                    <img src="assets/img/comidas/mousse_de_banana_fit.png" alt="Mousse de banana fit">
-                    <p>Delicioso mousse (morango, chocolate, banana e limão)</p>
-                    <h1>R$ 10,00</h1>
-                    <button>Comprar</button>
+                <hr>
+                <h1 id="categorias"> Sobremesas </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt">
+                        <h1>Mousse fitness</h1>
+                        <img src="assets/img/comidas/mousse_de_banana_fit.png" alt="Mousse Fitness">
+                        <br><br>
+                        <h3>Delicioso mousse (morango, chocolate, banana e limão)<br><strong>R$ 10,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="21" data-name="Mousse fitness" data-summary="Mousse fitness" data-price="10" data-quantity="1" data-image="assets/img/comidas/mousse_de_banana_fit.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Brigadeiro funcional</h1>
+                        <img src="assets/img/comidas/receitas_de_brigadeiro_fit.png" alt="Brigadeiro funcional 4 unidades">
+                        <br><br>
+                        <h3>Enrolados em coco, castanhas ou chocolate 100% cacau (4 Und)<br><strong>R$ 5,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="22" data-name="Brigadeiro funcional (4 Und)" data-summary="Brigadeiro funcional (4 Und)" data-price="5" data-quantity="1" data-image="assets/img/comidas/receitas_de_brigadeiro_fit.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Salada de frutas</h1>
+                        <img src="assets/img/comidas/salada_de_frutas.png" alt="Salada de frutas">
+                        <br><br>
+                        <h3>Quer fonte de nutrientes melhor do que essa?<br><strong>R$ 8,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="23" data-name="Salada de frutas" data-summary="Salada de frutas" data-price="8" data-quantity="1" data-image="assets/img/comidas/salada_de_frutas.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Pudim fit</h1>
+                        <img src="assets/img/comidas/pudim_fit.png" alt="Pudim fit">
+                        <br><br>
+                        <h3>Um delicioso pudim fit, bom para comer bastante<br><strong>R$ 16,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="24" data-name="Pudim fit" data-summary="Pudim fit" data-price="16" data-quantity="1" data-image="assets/img/comidas/pudim_fit.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
                 </div>
-
-                <div class="item" data-tilt>
-                    <h2>Brigadeiro funcional</h2>
-                    <img src="assets/img/comidas/receitas_de_brigadeiro_fit.png" alt="Brigadeiro funcional">
-                    <p>Enrolados em coco, castanhas ou chocolate 100% cacau</p>
-                    <h1>R$ 5,00 (4 Und)</h1>
-                    <button>Comprar</button>
+                <hr>
+                <h1 id="categorias"> Bebidas </h1>
+                <br><br><br>
+                <div class="cardap-row">
+                    <div id="cardap-produt">
+                        <h1>Sucos naturais (300ml)</h1>
+                        <img src="assets/img/comidas/suco_de_frutas.png" alt="Sucos naturais 300ml">
+                        <br><br>
+                        <h3>Sabores: maracujá, manga, abacaxí, goiaba, laranja<br><strong>R$ 5,50</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="25" data-name="Sucos naturais" data-summary="Sucos naturais" data-price="5" data-quantity="1" data-image="assets/img/comidas/suco_de_frutas.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Sucos detox (500ml)</h1>
+                        <img src="assets/img/comidas/suco_detox.png" alt="Sucos detox 500ml">
+                        <br><br>
+                        <h3>Mande sua receita, que preparamos para você<br><strong>R$ 10,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="26" data-name="Sucos detox (500ml)" data-summary="Sucos detox (500ml)" data-price="10" data-quantity="1" data-image="assets/img/comidas/suco_detox.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Smoothie (500ml)</h1>
+                        <img src="assets/img/comidas/smoothie.png" alt="Smoothie 500ml">
+                        <br><br>
+                        <h3>Uma bebida cremosa não alcoólica muito deliciosa<br><strong>R$ 15,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="27" data-name="Smoothie" data-summary="Smoothie" data-price="15" data-quantity="1" data-image="assets/img/comidas/smoothie.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
+                    <div id="cardap-produt">
+                        <h1>Chá gelado (400ml)</h1>
+                        <img src="assets/img/comidas/cha_gelado.png" alt=" Chá gelado 400ml">
+                        <br><br>
+                        <h3>Uma forma de chá, servido gelado ou bem gelado<br><strong>R$ 7,00</strong></h3>
+                        <br>
+                        <button class="btn-cardp my-cart-btn" data-id="28" data-name="Chá gelado" data-summary="Chá gelado" data-price="7" data-quantity="1" data-image="assets/img/comidas/cha_gelado.png">
+                        Colocar no carrinho
+                        </button>
+                    </div>
                 </div>
-
-                <div class="item" data-tilt>
-                    <h2>salada de frutas</h2>
-                    <img src="assets/img/comidas/salada_de_frutas.png" alt="Salada de frutas">
-                    <p>Quer fonte de nutrientes melhor do que essa?</p>
-                    <h1>R$ 8,00</h1>
-                    <button>Comprar</button>
-                </div>
-
-            </div><br><br><br>
-
-            <!---Bebidas-->
-            <div class="tipo"><p>Bebidas</p></div>
-            <div class="cardapio">
-
-                <div class="item" data-tilt>
-                    <h2>Sucos naturais</h2>
-                    <img src="assets/img/comidas/suco_de_frutas.png" alt="Suco de frutas">
-                    <p>Sabores: maracujá, manga, abacaxí, goiaba, laranja</p>
-                    <h1>R$ 5,50 (300ml)</h1>
-                    <button>Comprar</button>
-                </div>
-
-                <div class="item" data-tilt>
-                    <h2>Sucos detox</h2>
-                    <img src="assets/img/comidas/suco_detox.png" alt="Suco detox">
-                    <p>Mande sua receita, que preparamos para você</p>
-                    <h1>R$ 10,00 (500ml)</h1>
-                    <button>Comprar</button>
-                </div>
-
-                <div class="item" data-tilt>
-                    <h2>Salada de frutas</h2>
-                    <img src="assets/img/comidas/vitaminas_de_frutas.png" alt="Vitaminas de frutas">
-                    <p>Banana, morango, mamão, abacate (com ou sem aveia)</p>
-                    <h1>R$ 8,00 (500ml)</h1>
-                    <button>Comprar</button>
+                <hr>
+            </div>
+        </section>
+        <!--Rodapé-->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Sobre</h4>
+                        <span>
+                            IFIT é uma empresa brasileira que 
+                            possibilita o acesso de todos a uma 
+                            vida mais saudável, através de cardápios 
+                            que se encaixam na sua dieta.
+                        </span>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="#cardapio">Cardápio</a></li>
+                            <li><a href="index.html#Planos">Planos</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="fale.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Ajuda</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="fale.html">Reclamações</a></li>
+                            <li><a href="login.html">Portal do Cliente</a></li>
+                            <li><a href="#">Termos de Serviço</a></li>
+                            <li><a href="#">Central de Privacidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Pacotes</a></li>
+                            <li><a href="trabalhe.html">Seja nosso parceiro</a></li>
+                            <li><a href="fale.html">Conheça Nossas Instalações</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Redes Sociais</h4>
+                        <div class="fsocial-links">
+                            <a href="https://www.instagram.com/ifitsocial/" target="_blank" title="Instagram I Fit"><i class="fab fa-instagram"></i></a>
+                            <a href="https://bit.ly/3cNC1zz" target="_blank" title="Youtube I Fit"><i class="fab fa-youtube"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank" title="Whatsapp I Fit"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <p>
+                        © 2021 - I Fit Delivery │ Todos os direitos reservados. <br>
+                        © <a href="https://sites.google.com/view/facestudioofc/sobre" id="fsfo" target="_blank">
+                        Face Studio Group LTDA</a> │
+                        Duque de Caxias, RJ, Brasil.
+                    </p>
                 </div>
             </div>
-      </section>
-      <hr> 
-      <!--Rodapé-->
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-row">
-            <div class="footer-col">
-                <h4>Sobre</h4>
-                <span>
-                    IFIT é uma empresa brasileira que 
-                    possibilita o acesso de todos a uma 
-                    vida mais saudável, através de cardápios 
-                    que se encaixam na sua dieta.
-                </span>
-            </div>
-            <div class="footer-col">
-                <h4>Menu</h4>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="#Inicio">Cardápio</a></li>
-                    <li><a href="index.html#Planos">Planos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="fale.html">Contato</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Ajuda</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Reclamações</a></li>
-                    <li><a href="#">Portal do Cliente</a></li>
-                    <li><a href="#">Termos de Serviço</a></li>
-                    <li><a href="#">Central de Privacidade</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Serviços</h4>
-                <ul>
-                    <li><a href="#">Pacotes</a></li>
-                    <li><a href="#">Seja nosso parceiro</a></li>
-                    <li><a href="#">Conheça Nossas Instalações</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Redes Sociais</h4>
-                <div class="fsocial-links">
-                    <a href="https://www.instagram.com/ifitsocial/" target="_blank" title="Instagram I Fit"><i class="fab fa-instagram"></i></a>
-                    <a href="https://bit.ly/3cNC1zz" target="_blank" title="Youtube I Fit"><i class="fab fa-youtube"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank" title="Whatsapp I Fit"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-                <p>
-                    © 2021 - I Fit Delivery │ Todos os direitos reservados. <br>
-                    © <a href="https://sites.google.com/view/facestudioofc/sobre" id="fsfo" target="_blank">
-                    Face Studio Group LTDA</a> │
-                    Duque de Caxias, RJ, Brasil.
-                </p>
-          </div>
+        </footer>
+        <!--Botão Whatsapp-->
+        <div>
+            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
+                <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" title="I Fit WhatsApp">
+            </a>
         </div>
-           </footer>
-           <!--JavaScript para Menu-->
-       <script>
-           var navLinks = document.getElementById("navLinks");
-           function showMenu(){
-               navLinks.style.right = "0";
-           }
-           function hideMenu(){
-               navLinks.style.right = "-200px";
-           }
-       </script>
-        <!--Vanilla Tilt-->
-        <script src="assets/js/vanilla-tilt.js"></script>
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <!--BootStrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+        <!--Carrinho-->
+        <script src="assets/js/jquery.mycart.js"></script>
+        <script src="assets/js/carrinho.js"></script>
+        <!--JS Menu-->
         <script>
-            VanillaTilt.init(document.querySelector(".item"),{
-		max: 25,
-		speed: 400
-	});
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!--Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
         </script>
     </body>
 </html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+        <link rel="stylesheet" href="assets/css/minhaconta.css">
+       
+        <link rel="stylesheet" href="assets/css/dashboard.css">
+        <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://use.fontawesome.com/b4971712eb.js"></script>
+        <title>I Fit - Premium</title>
+    </head>
+    <body>
+        <input type="checkbox" id="nav-toggle">
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <h1><span class="las la-leaf"></span><span>I Fit Premium</span></h1>
+            </div>
+            <div class="sidebar-menu">
+                <ul> <!-- MENU LATERAL -->
+                    <br>
+                    <li>
+                        <a href="dashboard.html" class="nav__link"><span class="las la-home"></span>
+                        <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-video.html" class="nav__link"><span class="lab la-youtube"></span>
+                        <span>Vídeos</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-live.html" class="nav__link"><span class="las la-video"></span>
+                        <span>I Fit Live</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-calculadora.html" class="nav__link"><span class="las la-weight"></span>
+                        <span>Calculadora IMC</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-aula.html" class="nav__link"><span class="las la-running"></span>
+                        <span>Aulas em casa</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav__link active"><span class="las la-user"></span>
+                        <span>Minha Conta</span></a>
+                    </li>
+                    <li class="nav_logout">
+                        <a href="login.html" class="nav__link"><span class="las la-sign-out-alt"></span>
+                        <span>Log Out</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <header>
+                <h1>
+                    <label for="nav-toggle">
+                        <span class="las la-bars"></span>
+                    </label>
+                    Minha Conta <!-- TITULO -->
+                </h1>
+                <div class="search-wrapper">
+                    <span class="las la-search"></span>
+                    <input type="search" placeholder="Procure aqui">
+                </div>
+            </header>
+            <main class="dashmain"> <!-- CONTEUDO -->
+                <div class="user-perfil">
+                    <img src="assets/img/perfil.jpg" width="130px" height="120px" alt="">    
+                    <div>   
+                        <h4>Novo Usuário</h4>
+                        <small>Usuário Premium</small>
+                        <br>
+                        <input type="button" class="botao-altera" value="Altere sua foto de perfil">
+                    </div>                      
+                 </div>     
+                 <br>   
+                    <form class="contaForm" method="get">
+                        <label for="lname">Usuário:</label>
+                        <input type="text" id="nome" placeholder=" Novo Usuário" readonly><br><br>
+                        
+                        <label for="fname">Apelido:</label>
+                        <input type="text" id="fname" value=" User"><br><br>
+                       
+                        <label for="fname">Telefone:</label>
+                        <input type="text" id="fname"  value=" (21) 99119-5161"><br><br>
+                    </form>
+                <h1>Seus Pedidos</h1>
+            </main>
+        </div>
+        <!--Main JS-->
+        <script src="assets/js/dashboard-main.js"></script>
+    </body>
+</html>

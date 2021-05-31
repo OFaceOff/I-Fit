@@ -1,0 +1,50 @@
+.user-perfil {
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.user-perfil img {
+    border-radius: 50%;
+    border-color: #39B54A;
+    border: 20px;
+    margin-right: 2rem;
+}
+
+.user-perfil img :hover {
+    border-color: #5cbf2a;
+}
+
+.user-perfil small {
+    display: inline-block;
+    color: #39B54A;
+}
+
+.botao-altera {
+    line-height: 10px;
+    background-color:#39B54A;
+	border-radius:17px;
+	border:2px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:12px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 15px #2f6627;
+}
+.botao-altera:hover {
+	background-color:#5cbf2a;
+}
+.botao-altera:active {
+	position:relative;
+}
+
+.contaForm input {
+    border-radius: 15px;
+}
+
+.contaForm {
+    position: relative;
+    left: 45%;
+}

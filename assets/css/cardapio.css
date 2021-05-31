@@ -2,70 +2,175 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: overlay;
-    overflow-x: hidden;
 }
+
 body {
-    background: #2f923c;
+    overflow-x: hidden;
+    position: relative;
 }
 
-.cardapio {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-}
-
-.tipo {
-    text-align: center;
-    font-size: 55px;
-    color: #fff;
-    font-weight: 600;
-}
-
-.cardapio img {
-    padding: 5px;
-    width: auto;
-    height: auto;
-    border-radius: 20px;
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: #fff;
-
-    background-color: #ffffff1a;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 20px;
-    width: auto;
-    height: auto;
-    box-shadow: 10px 10px 10px #000000a4;
+h1 {
     overflow: hidden;
-    border-top: 1px solid #ffffff80;
-    border-left: 1px solid #ffffff80;
-    backdrop-filter: blur(5px);
 }
 
-.item p {
-    font-size: 20px;
-    font-weight: 500;
+h3 {
+    overflow: hidden;
 }
 
-.item button {
-    background-color: #202321;
-    color: #39b54a;
-    border-radius: 200px;
-    border: none;
-    font-size: 30px;
-    font-weight: 500;
+nav ul {
+    position: absolute;
+    right: 5%;
+    top: 1%;
+}
+
+.glyphicon {
+    overflow: hidden;
+}
+
+.badge {
+    margin-top: 45%;
+}
+
+.cardap-header img{
+    position: relative;
+    right: 45%;
+}
+
+.cardap-header {
+    overflow: hidden;
+}
+
+.cardap-header h1 {
+    overflow: hidden;
+}
+
+#cardapio {
+    height: 566vh;
+    background: #2f923c;
+    overflow: hidden;
+}
+
+.top-ico {
+    float: right;
     cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    right: 44%;
 }
 
-.item button:hover {
+#teste {
+    color: #ffffff;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    box-shadow: 10px 10px 10px #0000006e;
+    margin: 0 auto;
+    padding-top: 0.5%;
+    margin-bottom: 5%;
+    background-color: #39b54a;
+}
+
+#teste a {
+    color: white;
+    text-decoration: none;
+}
+
+#teste a:hover {
+    color: #202321;
+}
+
+#teste button:hover {
+    color: #202321;
+}
+
+.cardap-row {
+    color: white;
+    display: grid;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . . .";
+}
+
+.cardap-row img {
+    width: 98%;
+    margin-left: 1%;
+    max-width: 150%;
+    overflow: hidden;
+}
+
+.cardap-row h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.cardap-row h3 {
+    text-align: center;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.cardap-row h2 {
+    text-align: center;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.badge-notify {
+    background: red;
+    position: relative;
+    top: -20px;
+    right: 40px;
+    font-family: sans-serif;
+}
+
+.cardap-row button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+
+    color: #39b54a;
+    background: #202321;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.cardap-row button:hover {
     background-color: #0f6e1c;
     color: #fff;
+}
+
+.cardap-row img {
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.cardap-row strong {
+    font-size: 2em;
+}
+
+#cardap-produt {
+    margin-bottom: 25%;
+    border-radius: 5px;
+}
+
+#categorias {
+    text-decoration: underline #202321;
+    font-size: 6em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-ico button {
+    position: relative;
+    right: 2%;
+    background: transparent;
+    border: none;
 }
 
 body hr {
@@ -73,201 +178,162 @@ body hr {
     border: 5px solid #39b54a;
 }
 
-.cardap-move {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.cardap-header {
-    overflow: hidden;
-}
-/*Extra small devices (portrait phones, less than 576px)*/
+/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
-    /*cardapio*/
-    * {
-        overflow-x: hidden;
-    }
-    .cardapio {
-        flex-direction: column;
-        margin-right: 7%;
-        width: 100%;
-    }
-    .cardapio img {
-        width: auto;
-        justify-content: center;
-        margin-right: 0%;
-    }
-    .cardapio h2 {
-        font-size: 25px;
-        margin-right: 0%;
-    }
-    .cardapio h1 {
-        margin-right: 7%;
-    }
-    .cardapio p {
-        font-size: 17px;
-        margin-right: 0%;
-    }
-    /*tipo*/
-    .tipo {
-        width: 100%;
-        margin-right: 7%;        
+    .cardap-header img {
+        position: relative;
+        right: 28%;
     }
 
-    .tipo h2 {
-        font-size: 22px;
-        margin-right: 0%;
+    nav i{
+        position: absolute;
+        right: 5%;
+        top: 0.1%;
     }
-}
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-    /* cardapio */
-    .cardapio {
-        flex-direction: row;
+    .cardap-header h1 {
         display: flex;
-        margin-right: 7%;
-        width: 100%;
-    }
-    .cardapio img {
-        width: auto;
+        align-items: center;
         justify-content: center;
-        margin-right: 0%;
-    }
-    .cardapio h2 {
-        font-size: 25px;
-        margin-right: 0%;
-    }
-    .cardapio h1 {
-        margin-right: 7%;
-    }
-    .cardapio p {
-        font-size: 17px;
-        margin-right: 0%;
-    }
-    /*tipo*/
-    .tipo {
-        width: 100%;
-        margin-right: 7%;        
     }
 
-    .tipo h2 {
-        font-size: 22px;
-        margin-right: 0%;
-    }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-    /* cardapio */
-    .cardapio {
-        flex-direction:row;
-        display: flex;
-        margin-right: 7%;
-        width: 100%;
-    }
-    .cardapio img {
-        width: auto;
-        justify-content: center;
-        margin-right: 0%;
-    }
-    .cardapio h2 {
-        font-size: 25px;
-        margin-right: 0%;
-    }
-    .cardapio h1 {
-        margin-right: 7%;
-    }
-    .cardapio p {
-        font-size: 17px;
-        margin-right: 0%;
-    }
-    /*tipo*/
-    .tipo {
-        width: 100%;
-        margin-right: 7%;        
+    .top-ico {
+        position: relative;
+        right: 28%;
     }
 
-    .tipo h2{
-        font-size: 22px;
-        margin-right: 0%;
-    }
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    /* cardapio */
-    .cardapio {
-        flex-direction: row;
-        display: flex;
-        margin-right: 7%;
-        width: 100%;
-    }
-    .cardapio img {
-        width: auto;
-        justify-content: center;
-        margin-right: 0%;
-    }
-    .cardapio h2 {
-        font-size: 25px;
-        margin-right: 0%;
-    }
-    .cardapio h1 {
-        margin-right: 7%;
-    }
-    .cardapio p {
-        font-size: 17px;
-        margin-right: 0%;
-    }
-    /*tipo*/
-    .tipo {
-        width: 100%;
-        margin-right: 7%;        
-    }
-
-    .tipo h2 {
-        font-size: 22px;
-        margin-right: 0%;
-    }
-}
-
-/*Media Query*/
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    /* cardapio */
-    .cardapio {
-        flex-direction: row;
-        margin-right: auto;
+    #teste {
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
     
-    .cardapio img {
-        width: auto;
+    #cardapio {
+        height: 3086vh;
+    }
+
+    .cardap-row {
+        color: white;
+        display: grid;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardap-row button {
+        margin: 0 auto;
+        font-size: 2.5em;
+    }
+
+    .cardap-row h1 {
+        font-size: 4em;
+    }
+
+    .cardap-row h2 {
+        font-size: 4em;
+    }
+
+    .cardap-row h3 {
+        font-size: 2em;
+    }
+
+    #categorias {
+        display: flex;
+        text-align: center;
+        align-items: center;
         justify-content: center;
-        margin-right: 0%;
+        font-size: 4em;
     }
-    .cardapio h2 {
-        font-size: 25px;
-        margin-right: 0%;
-    }
-    .cardapio h1 {
-        margin-right: 7%;
-    }
-    .cardapio p {
-        font-size: 17px;
-        margin-right: 0%;
-    }
-        /*tipo*/
-    .tipo {
-        width: auto;       
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #hmenu {
+        position: absolute;
+        left: 5px;
+        top: 1px;
     }
 
-    .tipo h2 {
-        font-size: 22px;
-        margin-right: auto;
-        justify-content: center; 
+    nav i {
+        display: flex;
+        position: relative;
+        left: 45%;
+        bottom: 55px;
     }
 
-    .item {
-        width: 100%;
+    .cardap-header img {
+        position: relative;
+        right: 35%;
+        margin-top: 1%;
+    }
+
+    .top-ico {
+        position: relative;
+        right: 33%;
+    }
+
+    #cardapio {
+        height: 3605vh;
+    }
+
+    .cardap-header h1 {
+        position: absolute;
+        left: 150px;
+        top: 50px;
+    }
+
+    .cardap-row {
+        color: white;
+        display: grid;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardap-row button {
+        margin: 0 auto;
+        font-size: 3.5em;
+    }
+
+    .cardap-row h1 {
+        font-size: 4em;
+    }
+
+    .cardap-row h2 {
+        font-size: 4em;
+    }
+
+    .cardap-row h3 {
+        font-size: 2em;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav ul {
+        position: absolute;
+        right: 4%;
+        margin-top: -13%;
+    }
+
+    .top-ico {
+        position: relative;
+        right: 40%;
+    }
+
+    #cardapio {
+        height: 2580vh;
+    }
+
+    .cardap-row button {
+        font-size: 2em;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cardap-row button {
+        font-size: 1.5em;
+    }
+
+    #cardapio {
+        height: 758vh;
     }
 }

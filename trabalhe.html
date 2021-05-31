@@ -13,11 +13,6 @@
         <title>I Fit - Trabalhe Conosco</title>
     </head>
     <body>
-        <!--Botão Whatsapp-->
-        <div>
-            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
-            <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" width="100px" height="" title="I Fit WhatsApp">
-        </div>
         <!-- HEADER -->
         <section class="trab-header" id="Inicio">
         <nav>
@@ -27,9 +22,10 @@
                 <ul>
                     <li><a href="index.html">INÍCIO</a></li>
                     <li><a href="cardapio.html">CARDÁPIO</a></li>
-                    <li><a href="index.html#Planos">PLANOS</a></li>
+                    <li><a href="planos.html">PLANOS</a></li>
                     <li><a href="fale.html">CONTATO</a></li>
                     <li><a href="trabalhe.html">TRABALHE CONOSCO</a></li>
+                    <li><a href="login.html"><i class="far fa-user"></i></a></li>
                 </ul>
             </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -55,6 +51,11 @@
                 </form>  
               </div>  
         </section>
+        <!--Botão Whatsapp-->
+        <div>
+            <a id="btn-wpp" href="https://api.whatsapp.com/send?phone=+5521981528333" target="_blank">
+            <img src="assets/img/wppbtn.png" alt="WhatsApp I Fit" width="100px" height="" title="I Fit WhatsApp">
+        </div>
         <!--Rodapé-->
         <footer class="footer">
             <div class="footer-container">
@@ -71,19 +72,19 @@
                     <div class="footer-col">
                         <h4>Menu</h4>
                         <ul>
-                            <li><a href="#Inicio">Início</a></li>
-                            <li><a href="#">Cardápio</a></li>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="cardapio.html">Cardápio</a></li>
+                            <li><a href="index.html#Planos">Planos</a></li>
                             <li><a href="#">Sobre</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="fale.html">Contato</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
                         <h4>Ajuda</h4>
                         <ul>
                             <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Reclamações</a></li>
-                            <li><a href="#">Portal do Cliente</a></li>
+                            <li><a href="fale.html">Reclamações</a></li>
+                            <li><a href="login.html">Portal do Cliente</a></li>
                             <li><a href="#">Termos de Serviço</a></li>
                             <li><a href="#">Central de Privacidade</a></li>
                         </ul>
@@ -92,9 +93,8 @@
                         <h4>Serviços</h4>
                         <ul>
                             <li><a href="#">Pacotes</a></li>
-                            <li><a href="#">Seja nosso parceiro</a></li>
+                            <li><a href="fale.html">Seja nosso parceiro</a></li>
                             <li><a href="#">Conheça Nossas Instalações</a></li>
-                            <li><a href="#"></a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </footer>
-        <!--JavaScript para Menu-->
+        <!--Menu-->
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu(){

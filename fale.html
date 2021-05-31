@@ -85,5 +85,21 @@
               </p>
             </div>
         </div>
+        <!--Popup-->
+        <script>
+        function togglePopup() {
+            document.getElementById("popup-1").classList.toggle("active");
+        }
+        </script>
+        <!--Menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
     </body>
 </html>

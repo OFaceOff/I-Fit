@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>I Fit - Autenticação</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+        <link rel="shortcut icon" href="assets/img/Favicon.png">
+        <script src="https://kit.fontawesome.com/3f5354be84.js" crossorigin="anonymous"></script>
+        <script src="assets/js/login.js"></script>
+    </head>
+    <body>
+        <div class="principal">
+            <a href="index.html" class="voltar"><i class="fas fa-times-circle"></i></a>
+            <input type="checkbox" id="chk" aria-hidden="true">
+            <div class="signup">
+                <form action="dashboard.html">
+                    <img src="assets/img/logo_i.png" alt="I Fit Logo">
+                    <label for="chk" aria-hidden="true">Registrar-se</label>
+                    <input type="text" name="txt" placeholder="Nome de usuário" size="15" required="">
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="password" name="pswd" placeholder="Senha" required="">
+                    <Button type="submit">Registrar</Button>
+                </form>
+            </div>
+            <div class="login">
+                <form action="dashboard.html">
+                    <label for="chk" aria-hidden="true">Entrar</label><br>
+                    <input type="text" name="txt" placeholder="Nome de usuário" size="15" required="">
+                    <input type="password" name="pswd" placeholder="Senha" required="">
+                    <button type="submit">Entrar</button>
+                    <a href="dashboard.html" class="teste">
+                        <b>Entrar com conta teste</b>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

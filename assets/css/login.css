@@ -1,0 +1,154 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+    background-color: #202321;
+    overflow: hidden;
+}
+
+.principal {
+	width: 350px;
+	height: 590px;
+	overflow: hidden;
+	background-color: #39B54A;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+.principal img {
+	position: relative;
+	left: 45%;
+	width: 10%;
+	margin-bottom: -18%;
+}
+
+#chk {
+	display: none;
+}
+
+.signup {
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+
+label {
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+
+input {
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button {
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #202321;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #39B54A;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login {
+	height: 500px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: .8s ease-in-out;
+}
+
+.login label {
+	color: #39B54A;
+	transform: scale(.6);
+}
+
+.teste {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+    color: #39B54A;
+}
+
+.teste:hover {
+    text-decoration: none;
+    color: #21682a;
+}
+
+.voltar {
+	position: relative;
+	left: 89%;
+	top: 1%;
+	font-size: 30px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.voltar:hover {
+	text-decoration: underline;
+	color: #202321;
+}
+
+#chk:checked ~ .login {
+	transform: translateY(-500px);
+}
+
+#chk:checked ~ .login label {
+	transform: scale(1);	
+}
+
+#chk:checked ~ .signup label {
+	transform: scale(.6);
+}
+
+/*Extra small devices (portrait phones, less than 576px) */ 
+@media (max-width: 575.98px) {
+	body {
+		background-color: #21682a;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body {
+		background-color: #21682a;
+	}
+}

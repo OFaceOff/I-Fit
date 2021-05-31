@@ -1,7 +1,7 @@
 <h1 align="center">
     <a href="https://ofaceoff.github.io/I-Fit/"><img alt="I Fit" src="https://res.cloudinary.com/face-studio/image/upload/v1616296846/I%20Fit/logo_com_nome_h279k5.png"/>
     <br></a>
-    Welcome to I Fit
+    Bem-vindo(a) ao I Fit
 </h1>
 
 <h4 align="center">
@@ -16,16 +16,28 @@
 </p>
 
 ## :rocket: Sobre o projeto
+
 <p align="center">
     A I Fit é uma empresa ficticia criada para o PCA 2021-1<br><br>
-    <span>O Site I Fit é totalmente demonstrativo, com a finalidade apenas de divulgar a ideia que foi demandado a um trabalho universitário.</span><br>
+    O Site I Fit é totalmente demonstrativo, com a finalidade apenas de divulgar a ideia que foi demandado em um trabalho universitário.<br>
     :money_with_wings: :money_with_wings: :money_with_wings:
 </p>
 
+<br>
+
 ## :memo: Licença
 
-Este projeto está sob a licença do MIT. Veja [LICENSE](https://github.com/OFaceOff/I-Fit/blob/main/LICENSE) para mais informações.
+<span>Este projeto está sob a licença do MIT. Veja [LICENSE](https://github.com/OFaceOff/I-Fit/blob/main/LICENSE) para mais informações.</span>
 
+<br>
+
+## :exclamation: Importante!
+
+<span>Os erros que foram cometidos neste projeto são ponte para aprendizagem.</span>
 
 ---
-Feito com ♥ por <a href="https://github.com/OFaceOff">Gabriel Santiago (Face Off)</a> :heavy_dollar_sign:, <a href="https://github.com/DanSilva19">Daniel Leandro</a> :ok_hand:, <a href="https://github.com/icarorabello">Icaro Rabelo</a> :thumbsup: & <a href="https://github.com/markinzee">Marcos Paulo</a> :shipit:
+Feito com ♥ por: 
+<a href="https://github.com/OFaceOff">Gabriel Santiago (Face Off)</a> :computer:, 
+<a href="https://github.com/icarorabello">Icaro Rabelo</a> :thumbsup:, 
+<a href="https://github.com/Kauan-Codes">Kauan Costa</a> :link: & 
+<a href="https://github.com/markinzee">Marcos Paulo</a> :shipit: .
