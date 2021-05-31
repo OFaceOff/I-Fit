@@ -364,7 +364,46 @@ body .dashvid {
 }
 
 /* Página Aulas */
+#bemvindo{
+    text-align: center;
+    
+}
 
+
+#aula{
+    text-align: center;
+    
+    
+}
+
+#cp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#cp2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#39B54A;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+
+#video {
+    border: 20px solid #39B54A;
+    border-radius: 20px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 10px ;
+    
+    
+}
     
 
 /* -- */

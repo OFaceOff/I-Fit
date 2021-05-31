@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+        <link rel="stylesheet" href="assets/css/dashboard.css">
+        <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://use.fontawesome.com/b4971712eb.js"></script>
+        <title>I Fit Premium - Aulas</title>
+    </head>
+    <body>
+        <input type="checkbox" id="nav-toggle">
+        <nav class="sidebar">
+            <div class="sidebar-logo">
+                <h1><span class="las la-leaf"></span><span>I Fit Premium</span></h1>
+            </div>
+            <div class="sidebar-menu">
+                <ul> <!-- MENU LATERAL -->
+                    <br>
+                    <li>
+                        <a href="#" class="nav__link"><span class="las la-home"></span>
+                        <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-video.html" class="nav__link"><span class="lab la-youtube"></span>
+                        <span>Vídeos</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-live.html" class="nav__link"><span class="las la-video"></span>
+                        <span>I Fit Live</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-calculadora.html" class="nav__link"><span class="las la-weight"></span>
+                        <span>Calculadora IMC</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-aulas.html" class="nav__link active"><span class="las la-running"></span>
+                        <span>Aulas</span></a>
+                    </li>
+                    <li>
+                        <a href="dash-minhaconta.html" class="nav__link"><span class="las la-user"></span>
+                        <span>Minha Conta</span></a>
+                    </li>
+                    <li class="nav_logout">
+                        <a href="login.html" class="nav__link"><span class="las la-sign-out-alt"></span>
+                        <span>Log Out</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <header>
+                <h1>
+                    <label for="nav-toggle">
+                        <span class="las la-bars"></span>
+                    </label>
+                   Aulas<!-- TITULO -->
+                </h1>
+                <div class="search-wrapper">
+                    <span class="las la-search"></span>
+                    <input type="search" placeholder="Procure aqui">
+                </div>
+                <div class="user-wrapper">
+                        <img src="assets/img/perfil.jpg" width="40px" height="40px" alt="">    
+                    <div>    
+                        <h4>Novo Usuário</h4>
+                        <small>Usuário Premium</small>
+                    </div>
+                </div>
+            </header>
+            <main> <!-- CONTEUDO -->
+                <h2 id="bemvindo">Bem Vindo!</h2>
+                    <h7 id="cp2">Aqui você tem acesso a treinos online para ajudar na sua vida fitness. Bom treino e Divirta-se!</h7><br>
+                    <h7 id="cp"> Lembre-se! Não exagere, saúde em primeiro lugar!! </h7>
+                <hr>
+                
+                <div id="aula">
+                    <h2>Aero Hiit</h2>
+                    <b>*Ideal para quem quem quer emagrecer!*</b><br>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/KwxCuTuknMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7Wic5NXeJSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <div id="aula">
+                    <h2>Perder Barriga</h2>
+                    <b>*Ideal para quem quer perder aquela barriguinha!*</b><br>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8cYBuKJk6Yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/RW_QKMf8CVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <hr>
+
+                <div id="aula">
+                    <h2>Queimar gordura e Tonificar</h2>
+                    <b>*ideal para quem deseja queimar gordura e tonificar o corpo*</b><br>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-nXY1rQt1bI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/otDVwrGnZus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <hr>
+                <h7 id="cp">Aulas em parceria com o canal *Exercicios em casa* no youtube,Todos os direitos reservados</h7>
+
+                
+
+
+            </main>
+        </div>
+        <!--Main JS-->
+        <script src="assets/js/dashboard-main.js"></script>
+    </body>
+</html>
