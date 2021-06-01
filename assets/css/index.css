@@ -1375,7 +1375,7 @@ nav .fa {
     text-decoration: underline #39B54A;
 }
 
-/*-- Pagina Trabalhe --*/
+/*-- Página Trabalhe --*/
 
 .trab-header {
     text-align: center;
@@ -1396,7 +1396,7 @@ nav .fa {
     text-decoration: underline #39B54A;
 }
 
-/*-- Pagina Planos */
+/*-- Página Planos --*/
 
 .plan-header {
     text-align: center;
@@ -1405,4 +1405,23 @@ nav .fa {
     background-position: center;
     background-size: cover;
     color: #fff;
+}
+
+/*-- Página Sobre --*/
+
+.sobre-header {
+    width: 100%;
+    text-align: center;
+    background-color: #34a043;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.sobre-header h1 {
+    color: #fff;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 55px;
+    text-decoration: underline #39B54A;
 }
