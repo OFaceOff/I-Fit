@@ -21,7 +21,7 @@
             </div>
             <div class="sidebar-menu">
                 <ul> <!-- MENU LATERAL -->
-                    <br>
+                    <br><br>
                     <li>
                         <a href="dashboard.html" class="nav__link"><span class="las la-home"></span>
                         <span>Home</span></a>
@@ -35,7 +35,7 @@
                         <span>I Fit Live</span></a>
                     </li>
                     <li>
-                        <a href="dash-calculadora.html" class="nav__link"><span class="las la-weight"></span>
+                        <a href="#" class="nav__link"><span class="las la-weight"></span>
                         <span>Calculadora IMC</span></a>
                     </li>
                     <li>
@@ -43,7 +43,7 @@
                         <span>Aulas em casa</span></a>
                     </li>
                     <li>
-                        <a href="#" class="nav__link active"><span class="las la-user"></span>
+                        <a href="dash-minhaconta.html" class="nav__link active"><span class="las la-user"></span>
                         <span>Minha Conta</span></a>
                     </li>
                     <li class="nav_logout">
@@ -68,7 +68,7 @@
             </header>
             <main class="dashmain"> <!-- CONTEUDO -->
                 <div class="user-perfil">
-                    <img src="assets/img/perfil.jpg" width="130px" height="120px" alt="">    
+                    <img id="img" src="assets/img/perfil.jpg" width="130px" height="120px" alt="">    
                     <div>   
                         <h4>Novo Usuário</h4>
                         <small>Usuário Premium</small>
@@ -76,17 +76,22 @@
                         <input type="button" class="botao-altera" value="Altere sua foto de perfil">
                     </div>                      
                  </div>     
-                 <br>   
-                    <form class="contaForm" method="get">
-                        <label for="lname">Usuário:</label>
-                        <input type="text" id="nome" placeholder=" Novo Usuário" readonly><br><br>
-                        
-                        <label for="fname">Apelido:</label>
-                        <input type="text" id="fname" value=" User"><br><br>
-                       
-                        <label for="fname">Telefone:</label>
-                        <input type="text" id="fname"  value=" (21) 99119-5161"><br><br>
-                    </form>
+                 <br>
+                 <section class="conta-section">
+                    <b>*Dados*</b>  
+                    <div class="trab-container">
+                        <form action="#" class="form-contact" method="post" tabindex="1">  <br>
+                           <i class="las la-pencil-alt"></i></i><input type="text" class="form-contact-input" name="nome" value="Usuário" placeholder="Usuário" readonly/>  <br>
+                           <i class="las la-address-card"></i></i><input type="CPF" class="form-contact-input" name="CPF" value="XXX-XXX-XXX-XX" placeholder="CPF" readonly/></i>  <br>   
+                           <i class="las la-envelope"></i><input type="email" class="form-contact-input" name="email" placeholder="Email"/>  <br>
+                           <i class="las la-transgender"></i><input type="sexo" class="form-contact-input" name="sexo" placeholder="Sexo"/>  <br>
+                           <i class="las la-phone"></i></i><input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />  <br>
+                           <br>
+                           <button type="submit" class="form-contact-button">Enviar</button>  
+                        </form>  
+                      </div>  
+                </section>
+                <br><br>
                 <h1>Seus Pedidos</h1>
             </main>
         </div>

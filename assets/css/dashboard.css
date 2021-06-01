@@ -410,6 +410,139 @@ body .dashvid {
 
 /* Página Minha Conta*/
 
+.user-perfil {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+	padding-right: 20%;
+}
+
+.user-perfil img {
+    border-radius: 50%;
+    margin-right: 2rem;
+	border: 5px solid #39B54A;
+	border-radius: 50%;
+}
+
+
+.user-perfil small {
+    display: inline-block;
+    color: #39B54A;
+}
+
+.botao-altera {
+    line-height: 10px;
+    background-color:#39B54A;
+	border-radius:17px;
+	border:2px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:12px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 15px #2f6627;
+}
+.botao-altera:hover {
+	background-color:#5cbf2a;
+}
+.botao-altera:active {
+	position: relative;
+}
+
+.conta-section b {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+
+.form-contact {
+    width: 50%;
+  }
+  
+  .trab-container{
+	  justify-content: center;
+	  display: flex;
+	  align-items: center;
+  }
+
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+	text-align: center;
+  }
+  
+  .form-contact-button {
+    width: 60%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #5cbf2a;
+    display: flex;
+    border: none;
+    transition: 1s;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+
+.botao-salva {
+    line-height: 10px;
+    background-color:#39B54A;
+	border-radius:17px;
+	border:2px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:12px 8px;
+	text-decoration:none;
+	text-shadow:0px 0px 15px #2f6627;
+    position: relative;
+}
+.botao-salva:hover {
+	background-color:#5cbf2a;
+}
+
 /* -- */
 
 /* responsividade */
