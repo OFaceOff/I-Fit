@@ -432,6 +432,10 @@ nav .fa {
     padding-top: 100px;
 }
 
+.sobre a {
+    text-decoration: none;
+}
+
 .sobre p {
     display: flex;
     justify-content: center;
