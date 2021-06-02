@@ -20,7 +20,9 @@
 <p align="center">
     A I Fit é uma empresa ficticia criada para o PCA 2021-1<br><br>
     O Site I Fit é totalmente demonstrativo, com a finalidade apenas de divulgar a ideia que foi demandada em um trabalho universitário.<br>
-    :money_with_wings: :money_with_wings: :money_with_wings:
+</p>
+<p align="center">
+  <img alt="I Fit Team Logo" src="https://res.cloudinary.com/face-studio/image/upload/v1622641508/I%20Fit/I_Fit_Team_2_nzb1jx.png" width="40%">
 </p>
 
 <br>
