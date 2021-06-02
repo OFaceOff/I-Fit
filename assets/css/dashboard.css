@@ -366,12 +366,13 @@ body .dashvid {
 /* Conteudo Home*/
 
 .ifitappad {
-    width: 0%;
+    width: 70%;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
     background-color: white;
     border: 1px solid #b6b6b6a4;
+    text-decoration: underline #39B54A;
     border-radius: 10px;
 }
 
@@ -382,6 +383,7 @@ body .dashvid {
     margin-bottom: 2%;
     border-radius: 10px;
 }
+
 /* Página Aulas */
 
 #bemvindo{
