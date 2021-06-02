@@ -374,6 +374,7 @@ body .dashvid {
     border: 1px solid #b6b6b6a4;
     text-decoration: underline #39B54A;
     border-radius: 10px;
+    font-size: 1em;
 }
 
 .ifitappad img {
@@ -673,6 +674,10 @@ body .dashvid {
         left: 0; right: 0;
         margin: auto;
     }
+
+    .ifitappad {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -773,6 +778,11 @@ body .dashvid {
         margin-left: 5%;
         width: 90%;
         height: 300px;
+    }
+
+    .ifitappad {
+        width: 85%;
+        min-width: 75%;
     }
 }
 
