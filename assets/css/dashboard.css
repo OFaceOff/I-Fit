@@ -356,13 +356,32 @@ body .dashvid {
     text-align: center;
 }
 
-.dash-live iframe{
+.dash-live iframe {
     display: flex;
     margin: 0 auto;
     border: 20px solid #39B54A;
     border-radius: 5px;
 }
 
+/* Conteudo Home*/
+
+.ifitappad {
+    width: 0%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #b6b6b6a4;
+    border-radius: 10px;
+}
+
+.ifitappad img {
+    margin: 0 auto;
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
 /* Página Aulas */
 
 #bemvindo{
@@ -545,62 +564,112 @@ body .dashvid {
 
 /* -- */
 
+/* Página Nutricionistas */
+
+#nutri {
+    float: left;
+    width: 260px;
+    height: 260px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin green solid;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 25%;
+}
+
+.dash-nutri p{
+    padding-left: 3%;
+    width: 550px;
+    height: 200px;
+}
+
+.dash-nutri h2{
+    padding-left: 3%;
+    text-decoration: underline green;
+    text-align: justify;    
+}
+
+.dash-nutri i{
+    padding-left: 3%;
+    height: 50px;
+    width: 300px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.dash-nutri a {
+    text-decoration: none;
+    color: green;
+}
+/* -- */
+
 /* responsividade */
 
-@media only screen and (max-width: 1200px) {
-    .sidebar {
-        width: 70px;
-    }
-    
-    .sidebar .sidebar-logo,
-    .sidebar li {
-        padding-left: 1rem;
-        text-align: center;
-    }
-    
-    .sidebar li a {
-        padding-left: 0rem;
-    }
-    
-    .sidebar .sidebar-logo h1 span:last-child,
-    .sidebar li a span:last-child  {
-        display: none;
-    }
-    
-    .main-content {
-        margin-left: 70px;
-    }
-    
-    .main-content header {
-        width: calc(100% - 70px);
-        left: 70px;
-    }
-
-    .vidgalery {
-        max-width: 1120px;
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .details {
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
         width: 100%;
-        display: block;
-        margin: 0 auto;
+        margin-left: 1%;
+        padding-bottom: 130%;
+        font-size: 1.5em;
     }
 
-    .sidebar:hover {
-        width: 345px;
-        z-index: 200;
+    .youtube_video {
+        position: absolute;
+        top: 0; bottom: 5%;
+        left: 0; right: 0;
+        margin: auto;
+        margin-left: 0;
+        width: 96%;
+        height: 50%;
+        background-color: #39B54A;
     }
-    
-    .sidebar:hover .sidebar-logo,
-    .sidebar:hover li {
-        padding-left: 2rem;
-        text-align: left;
+
+    .vid-galery {
+        position: absolute;
+        top: 60%; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
     }
-    
-    .sidebar:hover li a {
-        padding-left: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .details {
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
+        margin-left: 10%;
+        padding-bottom: 127%;
+        width: 100%;
+        font-size: 1.6em;
+        overflow: hidden;
     }
-    
-    .sidebar:hover .sidebar-logo h1 span:last-child,
-    .sidebar:hover li a span:last-child  {
-        display: inline;
+
+    .youtube_video {
+        position: absolute;
+        top: 0; bottom: 5%;
+        left: 0; right: 0;
+        margin: auto;
+        margin-left: 0;
+        width: 96%;
+        height: 50%;
+        background-color: #39B54A;
+    }
+
+    .vid-galery {
+        position: absolute;
+        top: 60%; bottom: 0;
+        left: 0; right: 0;
+        margin: auto;
     }
 }
 
