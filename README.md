@@ -29,7 +29,7 @@
   </p>
 </div>
 <p align="center">
-  <img alt="I Fit Team Logo" src="https://res.cloudinary.com/face-studio/image/upload/v1622641508/I%20Fit/I_Fit_Team_2_nzb1jx.png" width="40%">
+  <img alt="I Fit Team Logo" src="https://res.cloudinary.com/face-studio/image/upload/v1630712519/I%20Fit/I_Fit_Team_2_fw2vz2.png" width="20%">
 </p>
 
 <br>
